@@ -232,6 +232,7 @@ Navigation bar
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
+	display: none;
 
   background: #ededed;
   list-style-type: none;

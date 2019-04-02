@@ -569,7 +569,7 @@ Mentor Team
 Testimonial
 ************************************/
 #testimonial{
-    background-color: #111;
+    background-color: #324751;
 }
 .bg-white{
     background-color: #fff !important;
@@ -709,8 +709,8 @@ Contact Us
 Footer
 ************************************/
 .footer {
-    padding: 60px 0 20px;
-    background: #111;
+    padding: 20px 0 55px;
+    background: #324751;
     color: #ccc;
 }
 .footer a {

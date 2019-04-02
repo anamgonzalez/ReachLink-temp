@@ -230,10 +230,12 @@ Navigation bar
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -50px;
+  margin: -100px 0 0 50px;
+	margin-top: -50px;
+	float:right;
   padding: 50px;
-  padding-top: 125px;
 	display: none;
+	text-align: right;
 
   background: #ededed;
   list-style-type: none;

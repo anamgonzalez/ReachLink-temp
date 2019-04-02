@@ -696,7 +696,14 @@ Contact Us
 }
 
 #sendmessage.show, #errormessage.show, .show {
-	display:block;
+	display:flex;
+
+}
+/*Accrediations*/
+#acred img{
+	display:inline;
+	margin-left: 13%;
+
 }
 /***********************************
 Footer

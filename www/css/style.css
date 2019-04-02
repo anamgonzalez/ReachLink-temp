@@ -132,15 +132,14 @@ Navigation bar
 
 #menuToggle
 {
-  display: block;
+  display: inline;
   position: relative;
-  top: 50px;
-  left: 50px;
-
-  z-index: 1;
-
+	float:right;
+	z-index: 1;
   -webkit-user-select: none;
   user-select: none;
+	margin-top: 15px;
+	padding-left: 10px;
 }
 
 #menuToggle input
@@ -149,6 +148,7 @@ Navigation bar
   width: 40px;
   height: 32px;
   position: absolute;
+
   top: -7px;
   left: -5px;
 
@@ -230,10 +230,12 @@ Navigation bar
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -50px;
+  margin: -100px 0 0 50px;
+	margin-top: -50px;
+	float:right;
   padding: 50px;
-  padding-top: 125px;
 	display: none;
+	text-align: right;
 
   background: #ededed;
   list-style-type: none;

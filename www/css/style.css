@@ -389,9 +389,15 @@ Banner
 /***********************************
 Carousel
 ************************************/
+h1 {
+	text-align: center;
+	padding: 5rem;
+}
 h2{
 	font-size: 24px;
 	padding-bottom: 15px;
+	text-align: center;
+	padding-bottom: 10rem;
 }
 .bottom-line{
 	width: 25px;
@@ -423,7 +429,23 @@ h2{
 .heading p {
   text-align: left;
 }
-
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+	 color: green;
+	 font-size: 45px;
+}
+.carousel-control.left,
+.carousel-control.right{
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-control.right{
+  left: auto;
+  right: 20px;
+}
 /***********************************
 Cta
 ************************************/

@@ -264,11 +264,6 @@ Navigation bar
 /***********************************
 Banner
 ************************************/
-.banner video{
-	display:block;
-	margin: 0 auto;
-	object-fit: fill;
-}
 .bg-color{
 	background-color: RGBA(12, 11, 11, 0.82);
 	min-height: 580px;
@@ -447,6 +442,11 @@ h2{
 .carousel-control.right{
   left: auto;
   right: 20px;
+}
+.carousel-inner > .item >img{
+  min-height : 300px;
+  max-height : 650px;
+  width : 100%;
 }
 /***********************************
 Cta

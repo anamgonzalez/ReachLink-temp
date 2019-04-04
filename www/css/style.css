@@ -575,6 +575,11 @@ Footer
   display: table;
   clear: both;
 }
+
+.endlinks img {
+	width: 150px;
+	height: 40px;
+}
 /***********************************
 ************************************
 Responsive media queries

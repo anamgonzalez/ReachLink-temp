@@ -1,26 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ReachLink</title>
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
-<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="../css/imagehover.min.css">
-<link rel="stylesheet" type="text/css" href="../css/style.css">
-
-<header>
-  <div w3-include-html="navbar.html"></div>
-</header>
-<h1>test</h1>
-
-<footer>
-  <div w3-include-html="footer.html"></div>
-</footer>
-</html>
-
-<script>
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */
@@ -48,7 +25,3 @@ function includeHTML() {
     }
   }
 }
-</script>
-<script>
-includeHTML();
-</script>

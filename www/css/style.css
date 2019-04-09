@@ -324,24 +324,7 @@ Banner
     75%  {top:24px;}
     100% {top:28px;}
 }
-.mouse::after {
-    content: "";
-    position: absolute;
-    height: 5px;
-    width: 5px;
-    background-color: #fff;
-    border-radius: 100%;
-    left: 50%;
-    top:10px;
-    margin-left: -2.5px;
-    transition:all 0.3s ease-in;
 
-     -webkit-animation-name: rotateplane; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
-    animation-name: rotateplane;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
 .modal-content h4 {
     font-size: 1.5em;
     font-weight: 700;
@@ -445,8 +428,10 @@ h2{
 }
 .carousel-inner > .item >img{
   min-height : 300px;
-  max-height : 650px;
+  max-height : 700px;
   width : 100%;
+	background-size: cover;
+	background-position: 50% 50%;
 }
 /***********************************
 Cta

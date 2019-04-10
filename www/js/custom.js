@@ -38,3 +38,5 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+
+$('#myCarousel1, #myCarousel2').carousel();

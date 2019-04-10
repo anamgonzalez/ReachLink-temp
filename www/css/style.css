@@ -12,11 +12,6 @@ ol, ul {
 .section-padding{
 	padding: 60px 0px;
 }
-h1, h2, h3, h4, h5, h6{
-    font-family: Open Sans, sans-serif;
-    font-weight: 700;
-    color: #4B4B4C;
-}
 a{
     color: #5fcf80;
 }
@@ -263,16 +258,6 @@ Banner
     width: 600px;
     margin: 150px auto;
 }
-.mouse {
-    width: 25px;
-    height: 45px;
-    border: 2px solid #fff;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    margin-left: -12.5px;
-    border-radius: 12px;
-}
 @-webkit-keyframes rotateplane {
     0%   {top:10px;}
     25%  {top:14px;}
@@ -339,6 +324,18 @@ Banner
 /***********************************
 Carousel Banner
 ************************************/
+.h1banner{
+	text-align: left;
+	color: #ffffff;
+    font-size: 55px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 800;
+    text-shadow: display;
+    letter-spacing: 2px;
+    text-transform: none;
+
+}
 h1 {
 	text-align: center;
 	padding: 5rem;

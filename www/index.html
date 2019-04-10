@@ -19,51 +19,13 @@
 
     gtag('config', 'UA-137063348-1');
   </script>
-  <!-- =======================================================
-    Theme Name: Mentor
-    Theme URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
 </head>
 
 <body>
   <!--Navigation bar-->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">Reach<span>Link</span></a>
-      </div>
-      <div id="menuToggle">
-        <!--
-        A fake / hidden checkbox is used as click reciever,
-        so you can use the :checked selector on it.
-      -->
-      <input onclick="myFunction()" type="checkbox" />
-      <span></span><span></span><span></span>
-      <ul id="menu">
-        <a href="#"><li>How It Works</li></a>
-        <a href="#"><li>Programs</li></a>
-        <a href="#"><li>About</li></a>
-        <a href="#"><li>FAQ</li></a>
-        <a href="#"><li>Contact</li></a>
-        <a href="#"><li>Team</li></a>
-        <a href="#"><li>Client Success</li></a>
-      </ul>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="html/telemed.html">What is Telemedicine?</a></li>
-        <li><a href="html/whyrl.html">Why ReachLink?</a></li>
-      </ul>
-      </div>
-    </div>
-  </nav>
+  <header>
+    <div w3-include-html="html/navbar.html"></div>
+  </header>
   <!--/ Navigation bar-->
   <!--Banner-->
   <section id="feature">
@@ -96,8 +58,8 @@
     </div>
   </section>
   <!--/ Banner-->
-  <!--Carousel-->
-  <section id="feature">
+  <!--Steps-->
+  <section id="steps">
         <div id="demo" class="carousel slide" data-ride="carousel">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Wrapper for slides -->
@@ -154,47 +116,10 @@
   </section>
   <!-- Accrediations-->
   <!--Footer-->
-  <footer id="footer" class="footer">
-  <!--Mailchimp-->
-    <div class="container">
-          <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
-          <script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"58f52eff3f67afc605d0739e7","lid":"463c0e6d85","uniqueMethods":true}) })</script>
-      <!-- End Mailchimp -->
-      <div class="endlinks">
-        <a href="https://www.research-park.org/"><img src="img/faulogo.png" alt="faulogo"></img></a><br>
-        hello@reachlink.com <br>
-        ReachLink <br>
-        3651 FAU Boulevard, Suite 400 <br>
-        Boca Raton, FL 33431 <br>
-
-        <div class="column">
-          <p>For Education</p>
-          <p>For Payers</p>
-          <p>For Health Systems</p>
-          <p>For Court Systems</p>
-          <p>For Correctional Facilities</p>
-        </div>
-        <div class="column"><p>Careers</p>
-        <p>News</p>
-        <p>Blog</p>
-        <p>Terms and Conditions</p>
-        <p>Privacy Policy</p>
-      </div>
-    </div>
-      <ul class="social-links">
-        <li><a href="https://twitter.com/reachlink"><i class="fa fa-twitter fa-fw"></i></a></li>
-        <li><a href="https://www.facebook.com/reachlinkusa"><i class="fa fa-facebook fa-fw"></i></a></li>
-        <li><a href="https://www.youtube.com/channel/UCPMbWCdCsK9Mq8eAKBniQtw"><i class="fa fa-youtube fa-fw"></i></a></li>
-        <li><a href="https://www.instagram.com/reachlinkusa/"><i class="fa fa-instagram fa-fw"></i></a></li>
-        <li><a href="https://www.linkedin.com/company/reachlink"><i class="fa fa-linkedin fa-fw"></i></a></li>
-      </ul>
-      <div class="credits">
-        ©2019 ReachLink All Rights Reserved<br>
-        Designed by <a href="anamgonzalez.info">Ana Maria Gonzalez</a>
-      </div>
-    </div>
+  <footer>
+    <div w3-include-html="html/footer.html"></div>
   </footer>
-  <!-- Footer-->
+
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
@@ -205,3 +130,36 @@
 </body>
 
 </html>
+<!--javascript adding features to site-->
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }
+  }
+}
+</script>
+<script>
+includeHTML();
+</script>

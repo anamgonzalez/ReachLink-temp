@@ -12,11 +12,6 @@ ol, ul {
 .section-padding{
 	padding: 60px 0px;
 }
-h1, h2, h3, h4, h5, h6{
-    font-family: Open Sans, sans-serif;
-    font-weight: 700;
-    color: #4B4B4C;
-}
 a{
     color: #5fcf80;
 }
@@ -339,6 +334,10 @@ Banner
 /***********************************
 Carousel Banner
 ************************************/
+.h1banner{
+	text-align: left;
+	
+}
 h1 {
 	text-align: center;
 	padding: 5rem;

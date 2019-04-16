@@ -1,0 +1,16 @@
+section h1{
+  font-size: 100px;
+}
+section p{
+  display: relative;
+  text-align: center;
+}
+
+section h2 {
+  padding-bottom: 0 !important;
+}
+
+#bluepart {
+  background-color: blue;
+  height: 200px;
+}

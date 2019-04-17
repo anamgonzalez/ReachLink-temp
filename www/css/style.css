@@ -404,8 +404,11 @@ h2{
 Statistics
 ************************************/
 #statistics{
-	background-color: #4CBFAE;
+	background-color: white;
 	color: white;
+}
+.statpic img{
+	align:middle;
 }
 .adulticons{
 	text-align: center;
@@ -417,18 +420,16 @@ Statistics
 .fa-globe{
 	font-size: 100px;
 }
-#statistics h1 {
+#statistics{
 	text-align: center;
 	padding: none;
 	margin: none;
 }
-#statistics h3 {
-	text-align: center;
-	font-size: 20px;
-}
 .namiicon{
-	width: 150px;
-	height: 40px;
+	width: 90px;
+	height: 30px;
+	float: right;
+	margin-right: 10%;
 }
 /***********************************
 Testimonial

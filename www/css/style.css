@@ -322,7 +322,7 @@ Banner
   transition: all 0.3s ease-in-out;
 }
 /***********************************
-Carousel Banner
+Carousel Banner Steps
 ************************************/
 .h1banner{
 	text-align: left;
@@ -334,8 +334,6 @@ Carousel Banner
     text-shadow: display;
     letter-spacing: 2px;
     text-transform: none;
-
-
 }
 h1 {
 	text-align: center;
@@ -409,6 +407,8 @@ Statistics
 }
 .statpic img{
 	align:middle;
+	margin: 100px;
+	margin-top: auto;
 }
 .adulticons{
 	text-align: center;
@@ -422,8 +422,6 @@ Statistics
 }
 #statistics{
 	text-align: center;
-	padding: none;
-	margin: none;
 }
 .namiicon{
 	width: 90px;

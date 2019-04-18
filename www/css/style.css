@@ -334,6 +334,16 @@ Carousel Banner Steps
 	font-size: 50px;
 	text-align: left;
 }
+.h1banner2{
+	float: right;
+	color: white;
+	position: relative;
+	top: 50%;
+	transform: translateY(-150%)translateX(-90%);
+	text-shadow: 30px;
+	font-size: 50px;
+	text-align: left;
+}
 h2{
 	font-size: 24px;
 	padding-bottom: 15px;

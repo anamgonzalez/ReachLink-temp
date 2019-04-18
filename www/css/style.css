@@ -368,10 +368,21 @@ Carousel Banner Steps
 	color: #696969;
 	position: relative;
 	top: 50%;
-	transform: translateY(-130%)translateX(30%);
+	transform: translateY(-160%)translateX(30%);
 	font-size: 50px;
 	text-align: left;
 	text-shadow: 1px 1px 2px black;
+}
+#myCarousel2 h1{
+	text-align: center;
+}
+#myCarousel1 .carousel-control.left{
+	transform: translateY(-10%);
+	font-size: 60px;
+}
+#myCarousel1 .carousel-control.right{
+	transform: translateY(-10%);
+	font-size: 60px;
 }
 h2{
 	font-size: 24px;

@@ -137,7 +137,7 @@ Navigation bar
   position: relative;
 
 
-  background: green;
+  background: #4CBFAE;
   border-radius: 3px;
 
   z-index: 1;
@@ -325,18 +325,24 @@ Banner
 Carousel Banner Steps
 ************************************/
 .h1banner{
+	float: right;
+	color: white;
+	position: relative;
+	top: 50%;
+	transform: translateY(-400%)translateX(20%);
+	text-shadow: 12px;
+	font-size: 50px;
 	text-align: left;
-	color: #ffffff;
-    font-size: 55px;
-    line-height: 60px;
-    font-style: normal;
-    font-weight: 800;
-    text-shadow: display;
-    letter-spacing: 2px;
-    text-transform: none;
 }
-h1 {
-	text-align: center;
+.h1banner2{
+	float: right;
+	color: white;
+	position: relative;
+	top: 50%;
+	transform: translateY(-150%)translateX(-90%);
+	text-shadow: 30px;
+	font-size: 50px;
+	text-align: left;
 }
 h2{
 	font-size: 24px;

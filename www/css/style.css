@@ -376,6 +376,9 @@ Carousel Banner Steps
 #myCarousel2 h1{
 	text-align: center;
 }
+#myCarousel2 {
+	background-color: #e8ecec;
+}
 #myCarousel1 .carousel-control.left{
 	transform: translateY(-10%);
 	font-size: 60px;
@@ -656,7 +659,8 @@ Responsive media queries
 		font-size: 8px;
 	}
 	.footer .social-links li a {
-			display:	inline-block;
+			display:inline-block;
+			text-align: center;
 	    color: #fff;
 	    font-size: 20px;
 	    line-height: 20px;
@@ -667,9 +671,7 @@ Responsive media queries
 		text-align: center;
 	}
 	.footer .social-links {
-	    list-style: none;
-	    padding: 0;
-			display: inline-block;
+			display: inline;
 			text-align: center;
 	}
 	.credits{

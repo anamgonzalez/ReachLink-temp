@@ -637,68 +637,38 @@ Responsive media queries
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) /*Footer*/{
+@media (min-width: 375px) and (max-width: 480px) /*Footer*/{
 
 	.footer {
-	    padding: 20px 0 55px;
 	    background: #4CBFAE;
 	    color: white;
 	}
-	.footer a {
+	.social-links li a{
+			display:inline;
 	    color: #fff;
-	}
-
-	.footer h3{
-		font-weight: 50;
-		letter-spacing: 0.05em;
-		margin: 0 0 40px;
-		font-size: 8px;
-	}
-	.footer .social-links li a {
-			display:inline-block;
-			text-align: center;
-	    color: #fff;
-	    font-size: 20px;
-	    line-height: 20px;
+	    font-size: 100px;
 	}
 	.footer .hellocred {
-		font-size: 20px;
-		padding: 20px;
+		font-size: 12px;
 		text-align: center;
-	}
-	.footer .social-links {
-			display: inline;
-			text-align: center;
 	}
 	.credits{
 		font-size: 10px;
 		text-align: center;
-
 	}
 	.column {
-	  text-align: center
+		display: inline-block;
 		font-size:12px;
-		position: relative;
-	}
-
-	/* Clear floats after the columns */
-	.row:after {
-	  content: "";
-	  display: table;
-	  clear: both;
-	}
-
-	.endlinks img {
-		display: inline;
-		width: 120px;
-		height: 30px;
-
+		transform: translateY(80%);
 	}
 	#reachlinklogo{
-		width: 100px;
+		width: 170px;
 		height: 60px;
 	}
-
+	#faulogo{
+		width: 180px;
+		height: 50px;
+	}
 }
 @media (min-width: 320px) and (max-width: 480px)/*Navbar*/{
 	#statlist img {

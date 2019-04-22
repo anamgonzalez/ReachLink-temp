@@ -696,5 +696,8 @@ Responsive media queries
 
 }
 @media (min-width: 320px) and (max-width: 480px)/*Navbar*/{
-	
+	#statlist img {
+		width: 100%;
+		height: 100%;
+	}
 }

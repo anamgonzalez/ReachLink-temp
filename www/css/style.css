@@ -339,7 +339,7 @@ Carousel Banner Steps
 	color: white;
 	position: relative;
 	top: 50%;
-	transform: translateY(-150%)translateX(-60%);
+	transform: translateY(-5%)translateX(-60%);
 	text-shadow: 30px;
 	font-size: 50px;
 	text-align: left;
@@ -349,7 +349,7 @@ Carousel Banner Steps
 	color: white;
 	position: relative;
 	top: 50%;
-	transform: translateY(-300%)translateX(-130%);
+	transform: translateY(-300%)translateX(-110%);
 	font-size: 50px;
 	text-align: left;
 }
@@ -365,7 +365,7 @@ Carousel Banner Steps
 }
 .h1banner5{
 	float: right;
-	color: #696969;
+	color: white;
 	position: relative;
 	top: 50%;
 	transform: translateY(-160%)translateX(30%);

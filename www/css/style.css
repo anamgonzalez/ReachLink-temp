@@ -589,18 +589,6 @@ Responsive media queries
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
-
-@media (min-width: 1281px) {
-
-  //CSS
-
-}
-
-/*
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
 @media (min-width: 1025px) and (max-width: 1280px) {
 
   //CSS
@@ -699,11 +687,14 @@ Responsive media queries
 		display: inline;
 		width: 120px;
 		height: 30px;
-		
+
 	}
 	#reachlinklogo{
 		width: 100px;
 		height: 60px;
 	}
 
+}
+@media (min-width: 320px) and (max-width: 480px)/*Navbar*/{
+	
 }

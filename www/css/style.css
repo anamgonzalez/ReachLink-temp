@@ -457,24 +457,21 @@ h2{
 /***********************************
 Statistics
 ************************************/
-#statistics{
+#statlist{
 	background-color: white;
 	color: white;
-}
-.statpic img{
 	align:middle;
-	margin: 100px;
 	margin-top: auto;
 }
-.adulticons{
-	text-align: center;
-	margin-top: 4rem;
+#statlist .statpic2 {
+	width: 30%;
 }
-.fa-child{
-	font-size: 60px;
+#statlist .statpic3 {
+	width: 20%;
 }
-.fa-globe{
-	font-size: 100px;
+#statlist .statpic4 {
+	width: 25%;
+	padding-bottom: 2%;
 }
 #statistics{
 	text-align: center;
@@ -482,8 +479,7 @@ Statistics
 .namiicon{
 	width: 90px;
 	height: 30px;
-	float: right;
-	margin-right: 10%;
+	transform: translateY(-80%)translateX(1230%);
 }
 /***********************************
 Testimonial

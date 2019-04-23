@@ -1,3 +1,4 @@
+html, body {width: auto!important; overflow-x: hidden!important}
 body {
 		font-size: 15px;
     line-height: 1.52;
@@ -630,9 +631,10 @@ Responsive media queries
 
 @media (min-width: 320px) and (max-width: 480px)/*navbar+carousel*/ {
 	ul.nav.navbar-nav.navbar-right{
-		transform: translateY(-20%);
+		transform: translateY(-120%);
 		display: flex;
 		justify-content: space-around;
+		height: 30px;
 
 	}
 	#menuToggle{
@@ -642,7 +644,7 @@ Responsive media queries
 		transform: translateX(-150%);
 	}
 	#myCarousel1 {
-		transform: translateY(50%);
+		transform: translateY(30%);
 		z-index:1;
 	}
 	.carousel-caption h1 {

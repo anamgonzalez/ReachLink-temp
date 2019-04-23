@@ -637,7 +637,7 @@ Responsive media queries
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 375px) and (max-width: 480px) /*Footer*/{
+@media (min-width: 320px) and (max-width: 480px) /*Footer*/{
 
 	.footer {
 	    background: #4CBFAE;

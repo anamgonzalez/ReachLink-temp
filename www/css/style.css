@@ -645,6 +645,15 @@ Responsive media queries
 		transform: translateY(50%);
 		z-index:1;
 	}
+	.carousel-caption h1 {
+		display: none;
+	}
+	.fa.fa-chevron-left {
+		display: none;
+	}
+	.fa.fa-chevron-right {
+		display: none;
+	}
 }
 
 /*
@@ -712,8 +721,5 @@ Responsive media queries
 	#acred img {
 		width: 100%;
 		transform: translateX(-10%);
-	}
-	#statlist {
-		transform
 	}
 }

@@ -455,6 +455,9 @@ h2{
 	padding: 20px;
 	align-items: center;
 }
+.carousel-inner>.item {
+          width: 100% !important;
+}
 /***********************************
 Statistics
 ************************************/

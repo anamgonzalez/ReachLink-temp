@@ -505,6 +505,9 @@ Footer
 	width: 200px;
 	height: 80px;
 }
+#faulogo {
+	padding-left: 10px;
+}
 /***********************************
 ************************************
 Responsive media queries

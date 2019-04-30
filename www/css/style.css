@@ -417,21 +417,18 @@ Testimonial
     background-color: #fff !important;
 
 }
-.brooks {
-  position: relative;
-  font-family: 'Sanchez', serif;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  font-style: italic;
-  &:before {
-      content: '\201C';
-      position: absolute;
-      top: 0.25em;
-      left: -0.15em;
-      color: darken($white, 7%);
-      font-size: 6em;
-      z-index: -1;
-   }
+.quotestart {
+	padding-left: 60px;
+	width: 130px;
+}
+.quoteend {
+	float: right;
+	width: 130px;
+	padding-right: 60px;
+	transform: translateY(-180%);
+}
+.chad {
+	text-align: right;
 }
 
 /*Accrediations*/

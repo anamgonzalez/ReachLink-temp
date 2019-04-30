@@ -13,10 +13,6 @@ section h2 {
   padding-bottom: 0 !important;
 }
 
-#bluepart {
-  background-color: #457BBD;
-  height: 200px;
-}
 table, th, td {
   border: 1px solid black;
 }

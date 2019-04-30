@@ -1,5 +1,8 @@
-section h1{
-  font-size: 100px;
+.telemedtitle {
+  font-size: 130px;
+  display: relative;
+  text-align: center;
+  padding-top: 80px;
 }
 section p{
   display: relative;

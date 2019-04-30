@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReachLink</title>
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/imagehover.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/disorders.css">
+
+</head>
+  <!--Navigation bar-->
+  <header>
+    <div w3-include-html="navbar.html"></div>
+  </header>
+  <!--/ Navigation bar-->
+<body>
+  <div class="allcards">
+    <div class="cardrow">
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>DEPRESSION</h1>
+        </div>
+      </div>
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>ANXIETY</h1>
+        </div>
+      </div>
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>SUBSTANCE ABUSE</h1>
+        </div>
+      </div>
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>PTSD</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardrow">
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>ADHD/ADD</h1>
+        </div>
+      </div>
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>STRESS</h1>
+        </div>
+      </div>
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>SEX ADDICTION</h1>
+        </div>
+      </div>
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>OCD</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardrow">
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>SELF HARM</h1>
+        </div>
+      </div>
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>VIDEO GAME ADDICTION</h1>
+        </div>
+      </div>
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>EATING DISORDERS</h1>
+        </div>
+      </div>
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>SOCIAL MEDIA ADDICTION</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardrow">
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>FAMILY COUNSELING</h1>
+        </div>
+      </div>
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>MARRIAGE COUNSELING</h1>
+        </div>
+      </div>
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>MEMORY LOSS</h1>
+        </div>
+      </div>
+      <div class="cardcolumn">
+        <div class="card">
+          <h1>SEVERE MENTAL HEALTH</h1>
+        </div>
+      </div>
+    </div>
+</div>
+</body>
+  <footer>
+    <div w3-include-html="footer.html"></div>
+  </footer>
+  </html>
+  <!--javascript adding features to site-->
+  <script>
+  function includeHTML() {
+    var z, i, elmnt, file, xhttp;
+    /* Loop through a collection of all HTML elements: */
+    z = document.getElementsByTagName("*");
+    for (i = 0; i < z.length; i++) {
+      elmnt = z[i];
+      /*search for elements with a certain atrribute:*/
+      file = elmnt.getAttribute("w3-include-html");
+      if (file) {
+        /* Make an HTTP request using the attribute value as the file name: */
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4) {
+            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+            /* Remove the attribute, and call this function once more: */
+            elmnt.removeAttribute("w3-include-html");
+            includeHTML();
+          }
+        }
+        xhttp.open("GET", file, true);
+        xhttp.send();
+        /* Exit the function: */
+        return;
+      }
+    }
+  }
+  </script>
+  <script>
+  includeHTML();
+  </script>

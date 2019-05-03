@@ -1,22 +1,21 @@
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
-
 /* This container is needed to position the front and back side */
 .flip-card-inner {
-  position: relative;
+  position: grid;
   width: 100%;
   height: 100%;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
@@ -28,12 +27,14 @@
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  grid-area: frontAndBack;
 }
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: #bbb;
   color: black;
+  grid-area: frontAndBack;
 }
 
 /* Style the back side */
@@ -41,6 +42,19 @@
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+  grid-area: frontAndBack;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {

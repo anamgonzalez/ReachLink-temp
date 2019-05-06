@@ -44,6 +44,7 @@
 }
 
 .column {
+  top: 100px;
   align-items: center;
   width: 20%;
   padding: 5px;

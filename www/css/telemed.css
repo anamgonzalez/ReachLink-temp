@@ -7,7 +7,6 @@
 }
 section p{
   display: relative;
-  text-align: center;
 }
 
 section h2 {
@@ -18,3 +17,8 @@ table, th, td {
 }
 
 /*icons */
+.icons div img h1 h2 {
+  display: inline-block;
+  width: 50%;
+  height: 20%;
+}

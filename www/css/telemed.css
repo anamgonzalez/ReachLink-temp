@@ -1,8 +1,9 @@
 .telemedtitle {
-  font-size: 130px;
+  font-size: 100px;
   display: relative;
   text-align: center;
   padding-top: 80px;
+  background-color: white;
 }
 section p{
   display: relative;
@@ -12,7 +13,8 @@ section p{
 section h2 {
   padding-bottom: 0 !important;
 }
-
 table, th, td {
   border: 1px solid black;
 }
+
+/*icons */

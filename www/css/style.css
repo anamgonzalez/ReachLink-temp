@@ -258,7 +258,7 @@ Carousel Banner Steps
 	color: white;
 	position: relative;
 	top: 50%;
-	transform: translateY(-5%)translateX(-60%);
+	transform: translateY(-300%)translateX(30%);
 	text-shadow: 30px;
 	font-size: 50px;
 	text-align: left;

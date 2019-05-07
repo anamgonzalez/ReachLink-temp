@@ -382,19 +382,24 @@ Statistics
 #statlist{
 	background-color: white;
 	color: white;
-	align:middle;
+	align: middle;
 	margin-top: auto;
 }
 #statlist .statpic2 {
-	width: 30%;
+	width: 25%;
 }
 #statlist .statpic3 {
 	width: 20%;
 }
 #statlist .statpic4 {
-	width: 25%;
+	width: 20%;
 	padding-bottom: 2%;
 }
+#statlist .statpic {
+	width: 20%;
+	padding-top: 5%;
+}
+
 #statistics{
 	text-align: center;
 }
@@ -429,6 +434,10 @@ Testimonial
 }
 .chad {
 	text-align: right;
+}
+.section-padding {
+	padding: 40px;
+	padding-bottom: -10px;
 }
 
 /*Accrediations*/

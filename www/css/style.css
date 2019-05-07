@@ -435,6 +435,10 @@ Testimonial
 .chad {
 	text-align: right;
 }
+.section-padding {
+	padding: 40px;
+	padding-bottom: -10px;
+}
 
 /*Accrediations*/
 #acred img{

@@ -27,6 +27,10 @@ Banner
 	color: white;
 	padding: 20px;
 }
+
+.banner p {
+	margin-left: 8%;
+}
 /***********************************
 Navigation bar
 ************************************/

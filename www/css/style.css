@@ -7,18 +7,6 @@ body {
 		font-family: 'Open Sans', sans-serif;
     font-weight: 401;
 }
-/* ol, ul {
-	list-style: none;
-} */
-.section-padding{
-	padding: 60px 0px;
-}
-/* a{
-    color: #5fcf80;
-}
-a:hover, a:focus{
-    color: #5fcf80;
-} */
 /***********************************
 Banner
 ************************************/
@@ -38,6 +26,18 @@ Navigation bar
 	width: 200px;
 	height: 200px;
 }
+.nav{
+    list-style:none;
+    margin:-60px;
+    padding: 0;
+		text-align: center;
+}
+.nav li{
+    display:inline !important;
+}
+.nav a{
+    display:inline-block !important;
+}
 /***********************************
 Mobile Drop Down Navbar
 ************************************/
@@ -47,7 +47,7 @@ Phone Number button
 ************************************/
 .rlnumber {
 	float: right;
-	transform: translateX(140%)translateY(170%);
+	transform: translateX(-150%)translateY(0%);
 	z-index: 2;
 	position: relative;
 	background-color:#FF8C00;

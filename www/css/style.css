@@ -39,9 +39,54 @@ Navigation bar
     display:inline-block !important;
 }
 /***********************************
-Mobile Drop Down Navbar
+Buttons
 ************************************/
+.telemedbutton {
+	float: left;
+	width: 50%;
+	padding: 2%;
+	font-size: 30px;
+	color: white;
+	background-color: #4CBFAC;
+}
+.whyrlbutton{
+	float: right;
+	width: 50%;
+	padding: 2%;
+	font-size: 30px;
+	color: white;
+	background-color: #4CBFAC;
+}
 
+.whyrlbutton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.whyrlbutton:active {
+	position:relative;
+	top:1px;
+}
+
+.telemedbutton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.telemedbutton:active {
+	position:relative;
+	top:1px;
+}
 /***********************************
 Phone Number button
 ************************************/

@@ -243,21 +243,24 @@ Statistics
 	background-color: white;
 	color: white;
 	align: middle;
-	margin-top: auto;
 }
 #statlist .statpic2 {
-	width: 25%;
+	width: 20%;
+	padding: 3%;
 }
 #statlist .statpic3 {
 	width: 20%;
+	margin-left: 3%;
 }
 #statlist .statpic4 {
-	width: 20%;
-	padding-bottom: 2%;
+	width: 25%;
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 5%;
 }
 #statlist .statpic {
 	width: 20%;
-	padding-top: 5%;
+	padding-top: 2%;
 }
 
 #statistics{
@@ -266,7 +269,7 @@ Statistics
 .namiicon{
 	width: 90px;
 	height: 30px;
-	transform: translateY(-80%)translateX(1230%);
+	transform: translateY(-40%)translateX(1230%);
 }
 /***********************************
 Testimonial

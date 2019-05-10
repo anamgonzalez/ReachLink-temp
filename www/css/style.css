@@ -19,6 +19,14 @@ Banner
 .banner p {
 	margin-left: 8%;
 }
+
+u {
+	color: white;
+
+}
+u:hover {
+	color: blue;
+}
 /***********************************
 Navigation bar
 ************************************/

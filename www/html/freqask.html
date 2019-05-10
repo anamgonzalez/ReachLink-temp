@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 
@@ -12,7 +12,28 @@
 <link rel="stylesheet" type="text/css" href="../css/freqask.css">
 
 <header>
-  <div w3-include-html="navbar.html"></div>
+    <nav>
+      <div>
+          <ul class="nav">
+              <a href="https://www.reachlink.com/"><img src="../img/logo.png" href="../index.html" class="rllogo" alt="rllogo"></img>
+            <li class="nav-item">
+              <a class="nav-link" href="disorders.html">Disorders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="programs.html">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="freqask.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        <div>
+            <button class="rlnumber"> (833) - 732 - 2489</button>
+          </div>
+      </div>
+    </nav>
   <header>
     <br>
     <br>
@@ -102,7 +123,6 @@ In fact,  91% of health outcomes were as good or better via tele-health, accordi
 <script src="../js/jquery.mobile.custom.min.js"></script>
 <script src="../js/main.js"></script> <!-- Resource jQuery -->
 </body>
-<footer>
   <footer id="footer" class="footer">
   <!--Mailchimp-->
     <div class="container">
@@ -150,38 +170,4 @@ In fact,  91% of health outcomes were as good or better via tele-health, accordi
     </div>
   </footer>
   <!-- Footer-->
-</footer>
 </html>
-
-<script>
-function includeHTML() {
-  var z, i, elmnt, file, xhttp;
-  /* Loop through a collection of all HTML elements: */
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
-    file = elmnt.getAttribute("w3-include-html");
-    if (file) {
-      /* Make an HTTP request using the attribute value as the file name: */
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-          /* Remove the attribute, and call this function once more: */
-          elmnt.removeAttribute("w3-include-html");
-          includeHTML();
-        }
-      }
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      /* Exit the function: */
-      return;
-    }
-  }
-}
-</script>
-<script>
-includeHTML();
-</script>

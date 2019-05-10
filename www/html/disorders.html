@@ -13,7 +13,28 @@
 </head>
   <!--Navigation bar-->
   <header>
-    <div w3-include-html="navbar.html"></div>
+    <nav>
+      <div>
+          <ul class="nav">
+              <a href="https://www.reachlink.com/"><img src="../img/logo.png" href="../index.html" class="rllogo" alt="rllogo"></img>
+            <li class="nav-item">
+              <a class="nav-link" href="disorders.html">Disorders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="programs.html">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="freqask.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        <div>
+            <button class="rlnumber"> (833) - 732 - 2489</button>
+          </div>
+      </div>
+    </nav>
   </header>
   <!--/ Navigation bar-->
     <!--/ Flip Card Columns-->
@@ -139,40 +160,53 @@
       </div>
     </section>
 </body>
-  <footer>
-    <div w3-include-html="footer.html"></div>
-  </footer>
+    <!--Footer-->
+    <footer id="footer" class="footer">
+    <!--Mailchimp-->
+      <div class="container">
+            <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+            <script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"58f52eff3f67afc605d0739e7","lid":"463c0e6d85","uniqueMethods":true}) })</script>
+        <!-- End Mailchimp -->
+        <div class="endlinks">
+          <a href="https://www.reachlink.com/"><img src="../img/reachlinklogo.png" alt="rllogo" id="reachlinklogo"></img> X
+          <a href="https://www.research-park.org/" target="_blank" ><img src="../img/faulogo.png" alt="faulogo" id="faulogo"></img></a>
+          <div class="hellocred"><br>
+          hello(at)reachlink.com <br>
+          ReachLink <br>
+          (833) - 732 - 2489<br>
+          3651 FAU Boulevard, Suite 400 <br>
+          Boca Raton, FL 33431 <br></div>
+
+          <div class="column">
+            <p>For Education</p>
+            <p>For Payers</p>
+            <p>For Health Systems</p>
+            <p>For Corporations</p>
+            <p>For Court Systems</p>
+            <p>For Correctional Facilities</p>
+          </div>
+          <div class="column"><p>Careers</p>
+          <p>Team</p>
+          <p>News</p>
+          <p>Blog</p>
+          <p>Terms and Conditions</p>
+          <p>Privacy Policy</p>
+        </div>
+      </div>
+      <div>
+        <ul class="social-links">
+          <li><a href="https://twitter.com/reachlink" target="_blank" ><i class="fa fa-twitter fa-fw"></i></a></li>
+          <li><a href="https://www.facebook.com/reachlinkusa" target="_blank" ><i class="fa fa-facebook fa-fw"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCPMbWCdCsK9Mq8eAKBniQtw" target="_blank" ><i class="fa fa-youtube fa-fw"></i></a></li>
+          <li><a href="https://www.instagram.com/reachlinkusa/" target="_blank" ><i class="fa fa-instagram fa-fw"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/reachlink" target="_blank" ><i class="fa fa-linkedin fa-fw"></i></a></li>
+        </ul>
+      </div>
+        <div class="credits">
+          ©2019 ReachLink All Rights Reserved<br>
+          Designed by <a href="anamgonzalez.info" target="_blank" >Ana Maria Gonzalez</a>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer-->
   </html>
-  <!--javascript adding features to site-->
-  <script>
-  function includeHTML() {
-    var z, i, elmnt, file, xhttp;
-    /* Loop through a collection of all HTML elements: */
-    z = document.getElementsByTagName("*");
-    for (i = 0; i < z.length; i++) {
-      elmnt = z[i];
-      /*search for elements with a certain atrribute:*/
-      file = elmnt.getAttribute("w3-include-html");
-      if (file) {
-        /* Make an HTTP request using the attribute value as the file name: */
-        xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-          if (this.readyState == 4) {
-            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-            /* Remove the attribute, and call this function once more: */
-            elmnt.removeAttribute("w3-include-html");
-            includeHTML();
-          }
-        }
-        xhttp.open("GET", file, true);
-        xhttp.send();
-        /* Exit the function: */
-        return;
-      }
-    }
-  }
-  </script>
-  <script>
-  includeHTML();
-  </script>

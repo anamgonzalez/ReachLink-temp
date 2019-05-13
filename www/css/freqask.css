@@ -1,14 +1,30 @@
 /*FAQS*/
 .faq_question {
+	color: #202020;
 	margin: 0px;
 	padding: 0px 0px 5px 0px;
 	display: inline-block;
 	cursor: pointer;
 	font-weight: bold;
 }
-
+.faq_question:hover{
+	color: #4CBFAC;
+}
 .faq_answer_container {
 	height: 0px;
 	overflow: hidden;
 	padding: 0px;
+	color:#808080;
+	width: 80%;
+}
+
+#faq h1{
+	display: inline;
+	text-align: center;
+	color: #202020 !important;
+}
+
+.faq_container {
+	margin-left: 15%;
+	padding-top: 2%;
 }

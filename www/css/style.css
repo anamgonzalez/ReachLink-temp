@@ -296,6 +296,7 @@ Testimonial
 .quotestart {
 	padding-left: 60px;
 	width: 130px;
+	transform:translateY(30%);
 }
 .quoteend {
 	float: right;
@@ -305,16 +306,16 @@ Testimonial
 }
 .chad {
 	text-align: right;
+	transform: translateY(-350%)translateX(-10%);
 }
-.section-padding {
-	padding: 40px;
-	padding-bottom: -10px;
+.row {
+	height: 220px;
 }
 
 /*Accrediations*/
 #acred img{
 	display:inline;
-	margin-left: 13%;
+	margin-left: 33%;
 }
 /***********************************
 Footer

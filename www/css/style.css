@@ -254,7 +254,7 @@ Statistics
 }
 #statlist .statpic2 {
 	width: 20%;
-	padding: 3%;
+	padding: 2%;
 }
 #statlist .statpic3 {
 	width: 20%;
@@ -263,7 +263,7 @@ Statistics
 #statlist .statpic4 {
 	width: 25%;
 	float: right;
-	padding-top: 10px;
+	padding-top: 3%;
 	padding-bottom: 5%;
 }
 #statlist .statpic {

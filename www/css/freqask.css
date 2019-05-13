@@ -1,11 +1,11 @@
 /*FAQS*/
 .faq_question {
-	color: #696969;
+	color: #202020;
 	margin: 0px;
 	padding: 0px 0px 5px 0px;
 	display: inline-block;
 	cursor: pointer;
-	font-weight: bolder;
+	font-weight: bold;
 }
 .faq_question:hover{
 	color: #4CBFAC;
@@ -21,7 +21,7 @@
 #faq h1{
 	display: inline;
 	text-align: center;
-	color: #696969;
+	color: #202020 !important;
 }
 
 .faq_container {

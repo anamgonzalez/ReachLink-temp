@@ -280,6 +280,17 @@ Statistics
 	transform: translateY(-40%)translateX(1230%);
 }
 /***********************************
+Icon with Steps
+************************************/
+.rlicons {
+	height: 350px;
+	padding:
+}
+.offwhiteblock {
+	background-color: #F8F8F5;
+	padding: 10px;
+}
+/***********************************
 Testimonial
 ************************************/
 #testimonial{

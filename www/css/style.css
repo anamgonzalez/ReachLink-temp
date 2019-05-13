@@ -254,7 +254,7 @@ Statistics
 }
 #statlist .statpic2 {
 	width: 20%;
-	padding: 3%;
+	padding: 2%;
 }
 #statlist .statpic3 {
 	width: 20%;
@@ -263,7 +263,7 @@ Statistics
 #statlist .statpic4 {
 	width: 25%;
 	float: right;
-	padding-top: 10px;
+	padding-top: 3%;
 	padding-bottom: 5%;
 }
 #statlist .statpic {
@@ -278,6 +278,17 @@ Statistics
 	width: 90px;
 	height: 30px;
 	transform: translateY(-40%)translateX(1230%);
+}
+/***********************************
+Icon with Steps
+************************************/
+.rlicons {
+	height: 350px;
+	padding:
+}
+.offwhiteblock {
+	background-color: #F8F8F5;
+	padding: 10px;
 }
 /***********************************
 Testimonial
@@ -296,6 +307,7 @@ Testimonial
 .quotestart {
 	padding-left: 60px;
 	width: 130px;
+	transform:translateY(30%);
 }
 .quoteend {
 	float: right;
@@ -305,16 +317,16 @@ Testimonial
 }
 .chad {
 	text-align: right;
+	transform: translateY(-350%)translateX(-10%);
 }
-.section-padding {
-	padding: 40px;
-	padding-bottom: -10px;
+.row {
+	height: 220px;
 }
 
 /*Accrediations*/
 #acred img{
 	display:inline;
-	margin-left: 13%;
+	margin-left: 33%;
 }
 /***********************************
 Footer

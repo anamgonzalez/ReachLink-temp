@@ -31,29 +31,33 @@ u:hover {
 Navigation bar
 ************************************/
 .rllogo {
-	width: 200px;
-	height: 200px;
-	margin-right: 0px !important;
-  margin-left: 80px;
-	margin-top: 5px;
+	width: 250px;
+	height: 100px;
+	float: left;
 }
 .nav{
     list-style:none;
-    margin:-70px;
-    padding: 0;
-		text-align: left;
+		text-align: right;
+		height: 50px;
 }
 .nav li{
     display:inline !important;
 }
 .nav a{
     display:inline-block !important;
+		margin-top: 25px;
+		margin-right: 20px;
 }
-.nav-item {
-	float: right;
-    margin-top: 80px;
-		margin-right: 80px;
+.navbarfixed .sticky{
+	position: fixed; /* Set the navbar to fixed position */
+	z-index: 99999;
+	background-color: white;
 }
+/* Page content */
+.content {
+  padding: 16px;
+}
+
 /***********************************
 Buttons
 ************************************/
@@ -108,7 +112,7 @@ Phone Number button
 ************************************/
 .rlnumber {
 	float: right;
-	transform: translateX(-150%)translateY(0%);
+	transform: translateX(-110%)translateY(165%);
 	z-index: 2;
 	position: relative;
 	background-color:#FF8C00;

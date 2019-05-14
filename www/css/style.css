@@ -31,13 +31,12 @@ u:hover {
 Navigation bar
 ************************************/
 .rllogo {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 100px;
 	float: left;
 }
 .nav{
     list-style:none;
-    padding: 0;
 		text-align: right;
 }
 .nav li{

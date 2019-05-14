@@ -33,26 +33,19 @@ Navigation bar
 .rllogo {
 	width: 200px;
 	height: 200px;
-	margin-right: 0px !important;
-  margin-left: 80px;
-	margin-top: 5px;
+	float: left;
 }
 .nav{
     list-style:none;
-    margin:-70px;
     padding: 0;
-		text-align: left;
+		text-align: right;
 }
 .nav li{
     display:inline !important;
 }
 .nav a{
     display:inline-block !important;
-}
-.nav-item {
-	float: right;
-    margin-top: 80px;
-		margin-right: 80px;
+		position:relative;
 }
 /***********************************
 Buttons

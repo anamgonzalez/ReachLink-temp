@@ -45,17 +45,19 @@ Navigation bar
 }
 .nav a{
     display:inline-block !important;
-		position:relative;
 		margin-top: 25px;
 		margin-right: 20px;
 }
-.navbarfixed {
+.navbarfixed .sticky{
 	position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-	z-index: 200;
+	z-index: 99999;
 	background-color: white;
 }
+/* Page content */
+.content {
+  padding: 16px;
+}
+
 /***********************************
 Buttons
 ************************************/

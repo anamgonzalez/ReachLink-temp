@@ -38,6 +38,7 @@ Navigation bar
 .nav{
     list-style:none;
 		text-align: right;
+		height: 50px;
 }
 .nav li{
     display:inline !important;
@@ -45,6 +46,15 @@ Navigation bar
 .nav a{
     display:inline-block !important;
 		position:relative;
+		margin-top: 25px;
+		margin-right: 20px;
+}
+.navbarfixed {
+	position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+	z-index: 200;
+	background-color: white;
 }
 /***********************************
 Buttons
@@ -100,7 +110,7 @@ Phone Number button
 ************************************/
 .rlnumber {
 	float: right;
-	transform: translateX(-150%)translateY(0%);
+	transform: translateX(-110%)translateY(165%);
 	z-index: 2;
 	position: relative;
 	background-color:#FF8C00;

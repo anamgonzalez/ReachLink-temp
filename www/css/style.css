@@ -43,7 +43,7 @@ Navigation bar
 .nav li{
     display:inline !important;
 }
-.nav a{
+.nav .nav-item {
     display:inline-block !important;
 		margin-top: 25px;
 		margin-right: 20px;

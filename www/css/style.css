@@ -276,8 +276,9 @@ Statistics
 	margin-left: 3%;
 }
 #statlist .statpic4 {
-	width: 25%;
-	float: right;
+	width: 20%;
+	display: relative;
+
 	padding-top: 3%;
 	padding-bottom: 5%;
 }
@@ -299,7 +300,7 @@ Icon with Steps
 ************************************/
 .rlicons {
 	height: 350px;
-	padding:
+	margin-left: 2%;
 }
 .offwhiteblock {
 	background-color: #F8F8F5;

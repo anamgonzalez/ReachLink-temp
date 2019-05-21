@@ -189,7 +189,7 @@ Carousel Banner Steps
 	transform: translateY(-10%);
 	font-size: 60px;
 }
-h2{
+.rlquote{
 	font-size: 24px;
 	padding-bottom: 15px;
 	text-align: center;
@@ -209,12 +209,12 @@ h2{
 .heading {
     width: 80%;
 }
-.fea i {
+.fea {
     font-size: 39px;
     color: #5FCF80;
     margin-top: 7px;
 }
-.heading h4 {
+.heading {
     font-size: 17px;
     line-height: 1.25;
     font-weight: 700;
@@ -222,7 +222,7 @@ h2{
     margin: 10px 0px;
     text-align: left;
 }
-.heading p {
+.heading {
   text-align: left;
 }
 .carousel-control.left, .carousel-control.right {

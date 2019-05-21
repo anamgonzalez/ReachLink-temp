@@ -7,6 +7,7 @@
 .scope {
   padding: 0 0 0 0;
   text-align: left;
+  font-family: 'Open Sans', sans-serif;
 }
 .common {
   text-align: left;
@@ -21,10 +22,24 @@
 }
 .mb3 {
   padding-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 .sourcetext {
   font-size: 14px;
   color: gray;
   padding: 0 10px 0 0;
   padding-top: 5px;
+}
+.mb2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 401;
+}
+.treatmentopt {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 20%;
+}
+.container--lg.border--bottom.pb3 {
+  height: 150px;
+  padding: 0 0 10px 0;
+  margin: 0 140px 0 140px;
 }

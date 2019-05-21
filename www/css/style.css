@@ -300,6 +300,9 @@ Statistics
 	height: 30px;
 	transform: translateY(-40%)translateX(10%);
 }
+#statistics {
+	padding: 3%;
+}
 /***********************************
 Icon with Steps
 ************************************/
@@ -309,7 +312,7 @@ Icon with Steps
 }
 .offwhiteblock {
 	background-color: #F8F8F5;
-	padding: 10px;
+	padding: 3%;;
 }
 /***********************************
 Testimonial

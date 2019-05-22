@@ -301,19 +301,18 @@ Statistics
 Icons with Steps
 ************************************/
 .rlicons {
-	height: 250px;
+	height: 355.828px;
 	width: 640px;
+	display: relative;
 }
 /***********************************
 Contact Form
 ************************************/
-.vl {
-  border-left: 6px solid green;
-  height: 500px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  top: 0;
+#mc_embed_signup {
+	height: 350px;
+	width: 630px;
+	display: relative;
+	float: right;
 }
 /***********************************
 Testimonial

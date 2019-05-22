@@ -175,12 +175,6 @@ Carousel Banner Steps
 	text-align: left;
 	text-shadow: 1px 1px 2px black;
 }
-#myCarousel2 h1{
-	text-align: center;
-}
-#myCarousel2 {
-	background-color: #e8ecec;
-}
 #myCarousel1 .carousel-control.left{
 	transform: translateY(-10%);
 	font-size: 60px;
@@ -300,16 +294,25 @@ Statistics
 	height: 30px;
 	transform: translateY(-40%)translateX(10%);
 }
+#statistics {
+	padding: 3%;
+}
 /***********************************
-Icon with Steps
+Icons with Steps
 ************************************/
 .rlicons {
-	height: 350px;
-	margin-left: 2%;
+	height: 355.828px;
+	width: 640px;
+	display: relative;
 }
-.offwhiteblock {
-	background-color: #F8F8F5;
-	padding: 10px;
+/***********************************
+Contact Form
+************************************/
+#mc_embed_signup {
+	height: 350px;
+	width: 630px;
+	display: relative;
+	float: right;
 }
 /***********************************
 Testimonial

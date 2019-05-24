@@ -1,5 +1,6 @@
 .missiontitle {
   text-align: center;
+  font-size: 40px;
 }
 .timeline {
   text-align: center;
@@ -7,4 +8,14 @@
 .missiondesc {
   text-align: center;
   font-size: 20px;
+  margin: 3%;
+}
+
+.missionline {
+  width: 50%;
+  font-size: 8px;
+}
+
+.map {
+  text-align: center;
 }

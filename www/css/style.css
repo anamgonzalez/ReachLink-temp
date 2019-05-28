@@ -302,7 +302,7 @@ Icons with Steps
 ************************************/
 .rlicons {
 	height: 355.828px;
-	width: 640px;
+	width: 900px;
 	display: relative;
 }
 /***********************************
@@ -310,7 +310,7 @@ Contact Form
 ************************************/
 #mc_embed_signup {
 	height: 350px;
-	width: 640px;
+	width: 375px;
 	display: relative;
 	float: right;
 }

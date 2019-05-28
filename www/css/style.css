@@ -297,6 +297,9 @@ Statistics
 #statistics {
 	padding: 3%;
 }
+.mc-field-group {
+	display: inline-block;
+}
 /***********************************
 Icons with Steps
 ************************************/

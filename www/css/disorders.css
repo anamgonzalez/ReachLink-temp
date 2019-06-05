@@ -35,3 +35,35 @@
   margin: 0 0 0 0;
   padding-top: 40px;
 }
+.block1 {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  height: 200;
+  width: 20%;
+  background-color: blue;
+}
+.block2 {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  height: 200;
+  width: 20%;
+  background-color: blue;
+}
+.block3 {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  height: 200;
+  width: 20%;
+  background-color: blue;
+}
+.block4 {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  height: 200;
+  width: 20%;
+  background-color: blue;
+}

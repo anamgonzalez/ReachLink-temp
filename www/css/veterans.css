@@ -50,15 +50,58 @@
   display: inline-block;
 }
 .textcontainer2{
-  display: inline-block;
+  display: flex;
   width: 100%;
-  background-color: lightgray;
+  background-color: #F8F8F5;
+  padding-left: 5%;
 }
 .bodytext2 {
-  width: 50%;
+  width: 40%;
 }
+/* Vertical Lines */
 .verticalline {
-  display:inline-block;
-  width: 1;
-  height: 500;
+display: flex;
+flex-wrap: wrap;
+background-color: gray;
+height: 200px;
+width: 2px;
+justify-content:center;
+}
+
+.numbers {
+  display: inline-block;
+  margin-left: 28%;
+}
+/* Body text 3 */
+.textcontainer3 {
+  background-color: white;
+  height: 400px;
+}
+#navimg {
+  display: inline-block;
+  position: absolute;
+  height: 400px;
+  width: 35%;
+}
+.bodytext3 {
+  height: 300px;
+  width: 50%;
+  float: right;
+}
+/* Body text 4 */
+.bodytext4 {
+  display: inline-block;
+  height: 300px;
+  width: 40%;
+}
+#accessphoto {
+  display: inline-block;
+  float: right;
+}
+.textcontainer4{
+    background-color: #F8F8F5;
+    height: 385px;
+}
+#myCarousel {
+  height: 400px;
 }

@@ -1,44 +1,107 @@
-.programsbox {
-  display: inline-block;
-  width: 40%;
-  background-color: #048ABF;
+.container1 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  -webkit-filter: opacity(50%); /* Safari 6.0 - 9.0 */
+  filter: opacity(50%);
+  transform: translateY(-4%);
+  z-index: 11;
+}
+#veteransimg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 600px;
+  width: 100%;
+}
+.textblock {
+  position: absolute;
+  bottom: 80px;
+  padding: 2%;
+  margin: 2%;
+  right: 20px;
   color: white;
+  text-shadow: 2px 2px black;
+  z-index: 9999;
+}
+/* Body Text One */
+.w3-container {
+  height: 350px;
+  width: 500px;
+  display: inline-block;
+  background-color:#457BBD;
+  color: white;
+  text-align: center;
+  transform: translateY(-25%)translateX(10%);
+
+}
+.bodytext1 {
+  display: inline-block;
+  width: 600px;
+  padding: 5%;
+}
+.textcontainer {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+/* Body Text Two */
+.matchlists {
+  display: inline-block;
+}
+.textcontainer2{
+  display: flex;
+  width: 100%;
+  background-color: #F8F8F5;
+  padding-left: 5%;
+}
+.bodytext2 {
+  width: 40%;
+}
+/* Vertical Lines */
+.verticalline {
+display: flex;
+flex-wrap: wrap;
+background-color: gray;
+height: 200px;
+width: 2px;
+justify-content:center;
 }
 
-.conditionsbox {
+.numbers {
   display: inline-block;
-  width: 60%;
-  background-color: #05AFF2;
-  color: white;
+  margin-left: 28%;
 }
-.servicesbox {
+/* Body text 3 */
+.textcontainer3 {
+  background-color: white;
+  height: 400px;
+}
+#navimg {
   display: inline-block;
-  width: 55%;
+  position: absolute;
+  height: 400px;
+  width: 35%;
+}
+.bodytext3 {
   height: 300px;
-  background-color: #1BF2CB;
-  color: white;
-}
-.philosophybox {
-  display: inline-block;
   width: 50%;
-  height: 300px;
-  background-color: #03A696;
-  color: white;
+  float: right;
 }
-.ctabox {
+/* Body text 4 */
+.bodytext4 {
   display: inline-block;
-  width: 100%;
   height: 300px;
-  background-color: #05AFF2;
-  color: white;
+  width: 40%;
 }
-.align-center {
-  text-align: center;
-  color: gray;
+#accessphoto {
+  display: inline-block;
+  float: right;
 }
-.mb3 {
-  margin: 3%;
+.textcontainer4{
+    background-color: #F8F8F5;
+    height: 385px;
 }
-.flex-container1 {
-  display:flex;
+#myCarousel {
+  height: 400px;
 }

@@ -24,3 +24,41 @@
   text-shadow: 2px 2px black;
   z-index: 9999;
 }
+/* Body Text One */
+.w3-container {
+  height: 350px;
+  width: 500px;
+  display: inline-block;
+  background-color:#457BBD;
+  color: white;
+  text-align: center;
+  transform: translateY(-25%)translateX(10%);
+
+}
+.bodytext1 {
+  display: inline-block;
+  width: 600px;
+  padding: 5%;
+}
+.textcontainer {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+/* Body Text Two */
+.matchlists {
+  display: inline-block;
+}
+.textcontainer2{
+  display: inline-block;
+  width: 100%;
+  background-color: lightgray;
+}
+.bodytext2 {
+  width: 50%;
+}
+.verticalline {
+  display:inline-block;
+  width: 1;
+  height: 500;
+}

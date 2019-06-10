@@ -1,7 +1,24 @@
 .adbanner {
+  position: relative;
   width: 100%;
-  background: linear-gradient(
-                     rgba(20,20,20, .5),
-                     rgba(20,20,20, .5));
-
+}
+.contact {
+  display: inline-block;
+  background-color: blue;
+}
+.number {
+  display: inline-block;
+}
+.number {
+  display: inline-block;
+}
+.iconscar {
+  background-color: green;
+  color: white;
+  height: 200px;
+}
+.elig {
+  background-color: #FF33C7;
+  color: white;
+  height: 200px;
 }

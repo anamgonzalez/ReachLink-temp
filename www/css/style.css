@@ -303,20 +303,20 @@ Statistics
 /***********************************
 Icons with Steps
 ************************************/
-/* .rlicons {
-	height: 355.828px;
-	width:100%;
+.rlicons {
+	height: 500px;
+	width: 25%;
 	display: relative;
-} */
-.placeholder {
-	display: inline-block;
-	color: blue;
-	height: 350px;
+	margin-left: 20%;
+	padding-bottom: 1%;
+}
+.illustrationsec{
+	background-color: #F8F8F5;
 }
 #mc_embed_signup {
 	display: inline-block;
+	padding-top: 5%;
 	float: right;
-
 }
 /***********************************
 Contact Form

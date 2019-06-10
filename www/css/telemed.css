@@ -1,20 +1,21 @@
-section p{
-  display: relative;
-}
 
-section h2 {
-  padding-bottom: 0 !important;
-}
-table, th, td {
-  border: 1px solid black;
-}
 .telemedquote {
 	height: 100px;
 }
-.map {
-  display: relative;
-  align-items: center;
-  margin-left: -10%;
-  margin-top: 3%;
-  margin-right: -6%;
+.video {
+  height: 400px;
+  background-color: blue;
+}
+.telemedstatement{
+  font-size: 25px;
+  color: grey;
+  text-align: center;
+  margin: 0 10 0 0;
+  padding-top: 40px;
+  padding: 2%;
+}
+
+.telemedinfo {
+  padding: 2%;
+  text-align: center;
 }

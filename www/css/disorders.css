@@ -1,3 +1,13 @@
+h1 {
+	/* Font & Text */
+	font-family: Rubik, sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 44px;
+	text-decoration: none solid rgb(119, 119, 119);
+	text-align: center;
+  padding-bottom: 10px;
+}
 /* Features Section
 --------------------------------*/
 #features {
@@ -32,33 +42,44 @@
 .distitle {
   color: grey;
   text-align: center;
+  align-items: center;
   margin: 0 0 0 0;
   padding-top: 40px;
 }
 .block1 {
-  display: inline-block;
+  color: white;
+  display: block;
   height: 200px;
-  width: 10%;
-  background-color: blue;
+  width: 25%;
+  background-color:#4d7368;
 }
 .block2 {
-  display: inline-block;
+  color: white;
+  display: block;
   height: 200px;
   width: 25%;
-  background-color: blue;
+  background-color: #45675d;
 }
 .block3 {
-  display: inline-block;
+  color: white;
+  display: block;
   height: 200px;
   width: 25%;
-  background-color: blue;
+  background-color: #3d5c53;
 }
 .block4 {
-  display: inline-block;
+  color: white;
+  display: block;
   height: 200px;
   width: 25%;
-  background-color: blue;
+  background-color: #355048;
 }
-.row {
-  display: inline-block;
+.block5 {
+  display: block;
+  height: 200px;
+  width: 25%;
+  background-color: #52FF89;
+}
+.container {
+  width: 100%;
 }

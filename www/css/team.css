@@ -14,15 +14,13 @@
 /* Some left and right padding inside the container */
 .container {
   padding: 0 16px;
+  display:inline-block;
 }
 
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+.rowcard {
+  display: inline-block;
 
+}
 .title {
   color: grey;
 }

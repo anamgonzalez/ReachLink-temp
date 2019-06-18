@@ -16,16 +16,15 @@ Banner
 	padding: 20px;
 }
 
-.banner p {
-	margin-left: 8%;
-}
-
 u {
 	color: white;
 
 }
 u:hover {
 	color: blue;
+}
+.banner .text-wrapper {
+	text-align: center;
 }
 /***********************************
 Navigation bar

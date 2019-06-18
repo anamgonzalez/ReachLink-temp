@@ -96,15 +96,7 @@
 .bodytext2 {
   width: 40%;
 }
-/* Vertical Lines */
-.verticalline {
-display: flex;
-flex-wrap: wrap;
-background-color: gray;
-height: 200px;
-width: 2px;
-justify-content:center;
-}
+
 
 .numbers {
   display: inline-block;
@@ -152,21 +144,19 @@ justify-content:center;
   width: 100%;
   height: 200px;
 }
+/* Tabs */
 /* Style the tab */
 .tab {
-  display: inline-block;
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  height: 400px;
-  width: 500px;
+  width: 540px;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
-  display: flex;
-  justify-content: center;
+  float: left;
   border: none;
   outline: none;
   cursor: pointer;
@@ -186,12 +176,17 @@ justify-content:center;
 
 /* Style the tab content */
 .tabcontent {
-  display: relative;
+  display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
-  height: 400px;
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
-.infograph {
-  height: 400px;
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.infovet {
+  width: 525px;
 }

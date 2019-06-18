@@ -154,15 +154,19 @@ justify-content:center;
 }
 /* Style the tab */
 .tab {
+  display: inline-block;
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
+  height: 400px;
+  width: 500px;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
-  float: left;
+  display: flex;
+  justify-content: center;
   border: none;
   outline: none;
   cursor: pointer;
@@ -182,11 +186,12 @@ justify-content:center;
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
+  display: relative;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  height: 400px;
 }
 .infograph {
-  height: 200px;
+  height: 400px;
 }

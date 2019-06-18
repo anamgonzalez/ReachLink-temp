@@ -94,7 +94,11 @@
   padding-left: 5%;
 }
 .bodytext2 {
-  width: 40%;
+  width: 100%;
+  text-align: center;
+}
+.bodytext2 p {
+  padding: 5%;
 }
 
 

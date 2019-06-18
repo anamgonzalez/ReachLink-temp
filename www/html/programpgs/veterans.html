@@ -15,11 +15,13 @@
 
 <head>
   <script src="../../js/jquery-2.1.1.js"></script>
+  <script src="../../js/tabs.js"></script>
   <script>
     $(window).scroll(function(){
     	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
     });
   </script>
+
 </head>
 <header>
     <nav id="navigation" class="navbar navbar-default navbar-fixed-top">
@@ -53,10 +55,9 @@
 <section class="container1">
   <img src="../../img/programpng/headerimg/veterans.jpg" alt="rllogo" id="veteransimg"></img>
   <div class="textblock">
-    <h1 class="veteranstitle"> Veteran Program</h1>
-    <h2 class="vsubtext">ReachLink’s Veteran Program is designed to serve those who served us.
+    <h1 class="veteranstitle">Veteran Program</h1>
+    <h2 class="vsubtext">ReachLink’s Veteran Program <br>is designed to serve those who served us.
     </h2>
-
   </div>
 </section>
 <br>
@@ -119,37 +120,69 @@
 </div>
 </section>
 
-<section class="textcontainer2">
+<section class="containertab">
+  <!-- Tab links -->
+<div class="tabsection">
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"><img src="../../img/programpng/veteranslogo/SealDoD.png" class="vetlogo"></button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')"><img src="../../img/programpng/veteranslogo/SealArmy.png" class="vetlogo"></button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')"><img src="../../img/programpng/veteranslogo/SealNavy.png" class="vetlogo"></button>
+  <button class="tablinks" onclick="openCity(event, 'Shanghai')"><img src="../../img/programpng/veteranslogo/SealMarines.png" class="vetlogo"></button>
+  <button class="tablinks" onclick="openCity(event, 'Moscow')"><img src="../../img/programpng/veteranslogo/SealAirForce.png" class="vetlogo"></button>
+</div>
 
-  <div class="bodytext2">
-    <h1> How does ReachLink help? </h1>
-    <p>Prolonged Exposure and Cognitive Processing Therapy
-      are trauma-focused psychotherapies These therapeutic
-      techniques are the most highly recommended for PTSD.
-      ReachLink clinicians use these innovative therapeutic techniques
-      to deliver world-class, effective and affordable care to those who
-       need it most. ReachLink clinicians are hand-selected for our Veteran
-        Program based on their specialty in trauma and skill in assisting individuals in transition to civilian life.
-    </p>
-  </div>
-  <div class="verticalline"></div>
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+  <img src="../../img/programpng/veteransinfo/graph1.jpg" class="infovet">
+</div>
 
+<div id="Paris" class="tabcontent">
+    <img src="../../img/programpng/veteransinfo/graph3.jpg" class="infovet">
+</div>
+
+<div id="Tokyo" class="tabcontent">
+    <img src="../../img/programpng/veteransinfo/graph5.jpg" class="infovet">
+</div>
+
+<div id="Shanghai" class="tabcontent">
+    <img src="../../img/programpng/veteransinfo/graph4.jpg" class="infovet">
+</div>
+
+<div id="Moscow" class="tabcontent">
+    <img src="../../img/programpng/veteransinfo/graph2.jpg" class="infovet">
+</div>
+</div>
   <div class="numbers">
+    <p>Between </p>
     <h1>11- 20% </h1>
     <p>Operations Iraqi Freedom (OIF) and Enduring Freedom (OEF) have PTSD in a given year.</p>
     <h1>12% </h1>
-    <p>Gulf War (Desert Storm) have PTSD in a given year</p>
+    <p>of Gulf War (Desert Storm) Veterans have PTSD in a given year</p>
     <h1>15% - 30%</h1>
-    <p>Vietnam War Veterans were currently diagnosed with PTSD </p>
-    <h1>21092</h1>
-    <p>cases on average per year from 2000-2017 in the U.S. Military of TBI (Traumic Brain Injury) </p>
+    <p>of Vietnam War Veterans were currently diagnosed with PTSD </p>
+    <p> An Average of </p>
+    <h1>21,092</h1>
+    <p>Veteran cases per year from 2000-2017 in the U.S. Military of TBI (Traumic Brain Injury) </p>
   </div>
-
 </section>
+
+<div class="bodytext2">
+  <h1> How does ReachLink help? </h1>
+  <p>Prolonged Exposure and Cognitive Processing Therapy
+    are trauma-focused psychotherapies These therapeutic
+    techniques are the most highly recommended for PTSD.
+    ReachLink clinicians use these innovative therapeutic techniques
+    to deliver world-class, effective and affordable care to those who
+    need it most. ReachLink clinicians are hand-selected for our Veteran
+    Program based on their specialty in trauma and skill in assisting individuals in transition to civilian life.
+  </p>
+</div>
+</section>
+
 
 <section class="textcontainer3">
   <div class="bodytext3">
-    <h1 class="title"> How Does it Work?</h1>
+    <h1 class="title">Resources</h1>
     <div class="logoicons">
       <img src="../../img/programpng/logoicons/cert1.png" alt="rllogo" id="logoicons"></img>
       <img src="../../img/programpng/logoicons/cert2.png" alt="rllogo" id="logoicons"></img>
@@ -157,6 +190,8 @@
       <img src="../../img/programpng/logoicons/cert4.png" alt="rllogo" id="logoicons"></img>
       <img src="../../img/programpng/logoicons/cert5.png" alt="rllogo" id="logoicons"></img>
       <img src="../../img/programpng/logoicons/cert6.svg" alt="rllogo" id="logoicons"></img>
+      <img src="../../img/programpng/logoicons/cert7.png" alt="rllogo" id="logoicons"></img>
+      <img src="../../img/programpng/logoicons/cert8.png" alt="rllogo" id="logoicons"></img>
     </div>
   </div>
 </section>

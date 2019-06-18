@@ -27,17 +27,20 @@
 .textblock {
   position: absolute;
   top: 40%;
-  left: 10%;
+  left: 5%;
   text-align: left !important;
   color: white;
-  z-index: 9999;
-  width: 35%;
+  z-index: 9;
+  width: 550px;
+  height: 150px;
+  background-color: #23567C;
+  text-align: left;
+  padding: 5px;
 }
 .veteranstitle {
-	font-family: futura, sans-serif;
+	font-family: Futura, sans-serif;
 	font-size: 60px;
 	font-weight: 400;
-  margin-left: -5.5%;
 	letter-spacing: 4px;
   text-align: left;
 	line-height: 34px;
@@ -59,7 +62,6 @@
 	vertical-align: baseline;
 	white-space: pre-wrap;
 	word-spacing: 0px;
-  margin-bottom: -5%;
 }
 .vinfo {
   font-family: futura, sans-serif;
@@ -79,6 +81,7 @@
   display: inline-block;
   z-index: 10;
   width: 100%;
+  color:
 }
 /* Body Text Two */
 .matchlists {
@@ -93,19 +96,11 @@
 .bodytext2 {
   width: 40%;
 }
-/* Vertical Lines */
-.verticalline {
-display: flex;
-flex-wrap: wrap;
-background-color: gray;
-height: 200px;
-width: 2px;
-justify-content:center;
-}
+
 
 .numbers {
   display: inline-block;
-  margin-left: 28%;
+  width:33%;
 }
 /* Body text 3 */
 .textcontainer3 {
@@ -148,4 +143,53 @@ justify-content:center;
   text-align: center;
   width: 100%;
   height: 200px;
+}
+/* Tabs */
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: white;
+  width: 540px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ccc;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  width: 50%;
+  border-top: none;
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.infovet {
+  width: 525px;
+}
+.tabsection {
+  width: 50%;
+  display: inline-block;
 }

@@ -1,4 +1,4 @@
-* {
+h1, p, h3, h2, ul  {
   font-family: Montserrat, sans-serif;
   font-weight: 200;
 }
@@ -121,38 +121,44 @@
 }
 /* Resources */
 #logoicons1 {
-  height: 40px;
-  width: 60px;
+  height: 100px;
+  width: 150px;
 }
 #logoicons2 {
-  height: 20px;
-  width: 60px;
+  height: 90px;
+  width: 90px;
 }
 #logoicons3 {
-  height: 20px;
-  width: 60px;
+  height: 100px;
+  width: 130px;
 }
 #logoicons4 {
-  height: 20px;
-  width: 60px;
+  height: 100px;
+  width: 150px;
 }
 #logoicons5 {
-  height: 20px;
-  width: 60px;
+  height: 100px;
+  width: 200px;
 }
 #logoicons6 {
-  height: 20px;
-  width: 60px;
+  height: 100px;
+  width: 150px;
 }
 #logoicons7 {
-  height: 20px;
-  width: 60px;
+  height: 100px;
+  width: 70px;
 }
 #logoicons8 {
-  height: 20px;
-  width: 60px;
+  height: 100px;
+  width: 150px;
 }
-
+#logoicons9 {
+  height: 80px;
+  width: 200px;
+}
+.columnicons {
+  padding: 3%;
+}
 .resources {
   text-align: center;
   width: 100%;

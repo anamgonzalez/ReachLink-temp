@@ -3,7 +3,7 @@ body {
     line-height: 1.52;
     color: #717f86;
     font-size: 16px;
-		font-family: 'Rubik', sans-serif !important;
+		font-family: 'Rubik', sans-serif;
     font-weight: 700;
 }
 /***********************************
@@ -20,7 +20,7 @@ Navigation bar
 		height: 50px;
 }
 .nav .nav-item {
-    display:inline-block !important;
+    display:inline-block;
 		text-align: right;
 		float: right;
 		margin-top: 25px;

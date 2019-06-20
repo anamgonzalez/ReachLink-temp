@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138px" height="74px" viewBox="0 0 138 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>MFT</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(92.000000, 3.000000)">
+            <ellipse id="Oval-4" stroke="#7ED321" stroke-width="5" style="mix-blend-mode: color-burn;" cx="22.8909953" cy="7.93478261" rx="8.06635071" ry="7.93478261"></ellipse>
+            <rect id="Rectangle-7" fill="#B0AFAF" style="mix-blend-mode: color-burn;" transform="translate(23.000000, 29.531481) rotate(90.000000) translate(-23.000000, -29.531481) " x="6.86729858" y="25.9445244" width="32.2654028" height="7.17391304" rx="3.58695652"></rect>
+            <rect id="Rectangle-7" fill="#B0AFAF" transform="translate(16.145650, 54.255535) rotate(-56.000000) translate(-16.145650, -54.255535) " x="0.0129486303" y="50.668579" width="32.2654028" height="7.17391304" rx="3.58695652"></rect>
+            <rect id="Rectangle-7" fill="#B0AFAF" transform="translate(29.345131, 54.198331) rotate(60.000000) translate(-29.345131, -54.198331) " x="13.2124297" y="50.6113749" width="32.2654028" height="7.17391304" rx="3.58695652"></rect>
+            <rect id="Rectangle-7" fill="#D0D1CF" style="mix-blend-mode: color-burn;" x="0" y="20.4347826" width="46" height="7.17391304" rx="3.58695652"></rect>
+        </g>
+        <g id="Group" transform="translate(0.000000, 3.000000)">
+            <ellipse id="Oval-4" stroke="#7AB4F7" stroke-width="5" style="mix-blend-mode: color-burn;" cx="22.8909953" cy="7.93478261" rx="8.06635071" ry="7.93478261"></ellipse>
+            <rect id="Rectangle-7" fill="#B0AFAF" style="mix-blend-mode: color-burn;" transform="translate(23.000000, 29.531481) rotate(90.000000) translate(-23.000000, -29.531481) " x="6.86729858" y="25.9445244" width="32.2654028" height="7.17391304" rx="3.58695652"></rect>
+            <rect id="Rectangle-7" fill="#B0AFAF" transform="translate(16.145650, 54.255535) rotate(-56.000000) translate(-16.145650, -54.255535) " x="0.0129486303" y="50.668579" width="32.2654028" height="7.17391304" rx="3.58695652"></rect>
+            <rect id="Rectangle-7" fill="#B0AFAF" transform="translate(29.345131, 54.198331) rotate(60.000000) translate(-29.345131, -54.198331) " x="13.2124297" y="50.6113749" width="32.2654028" height="7.17391304" rx="3.58695652"></rect>
+            <rect id="Rectangle-7" fill="#D0D1CF" style="mix-blend-mode: color-burn;" x="0" y="20.4347826" width="46" height="7.17391304" rx="3.58695652"></rect>
+        </g>
+        <g id="Group" transform="translate(53.000000, 25.000000)">
+            <ellipse id="Oval-4" stroke="#F77ADE" stroke-width="5" style="mix-blend-mode: color-burn;" cx="15.7793103" cy="5.42986425" rx="5.62758621" ry="5.42986425"></ellipse>
+            <rect id="Rectangle-7" fill="#B0AFAF" style="mix-blend-mode: color-burn;" transform="translate(16.110345, 20.199095) rotate(90.000000) translate(-16.110345, -20.199095) " x="4.85517241" y="17.8099548" width="22.5103448" height="4.77828054" rx="2.38914027"></rect>
+            <rect id="Rectangle-7" fill="#B0AFAF" transform="translate(11.255172, 37.140271) rotate(-56.000000) translate(-11.255172, -37.140271) " x="0" y="34.7511312" width="22.5103448" height="4.77828054" rx="2.38914027"></rect>
+            <rect id="Rectangle-7" fill="#B0AFAF" transform="translate(20.524138, 37.140271) rotate(60.000000) translate(-20.524138, -37.140271) " x="9.26896552" y="34.7511312" width="22.5103448" height="4.77828054" rx="2.38914027"></rect>
+            <rect id="Rectangle-7" fill="#D0D1CF" style="mix-blend-mode: color-burn;" x="0" y="13.9004525" width="32" height="4.77828054" rx="2.38914027"></rect>
+        </g>
+    </g>
+</svg>

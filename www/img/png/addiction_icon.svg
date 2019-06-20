@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="64px" viewBox="0 0 31 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>addiction</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="53.333807%" x2="51.1780758%" y2="53.333807%" id="linearGradient-1">
+            <stop stop-color="#59D0FF" offset="0%"></stop>
+            <stop stop-color="#2DA3FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="46.1227536%" x2="51.3186614%" y2="46.1227536%" id="linearGradient-2">
+            <stop stop-color="#A5F4FD" offset="0%"></stop>
+            <stop stop-color="#5FC9DC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="55.7989837%" y1="50%" x2="53.2980549%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#D8D8D8" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pill">
+            <path d="M15.4034312,0.000531600273 C19.0907256,-0.0269357865 22.6694533,1.00739124 25.936708,3.71307103 C29.2039628,6.41875082 30.5629293,11.0234653 30.5629293,12.1107386 C30.5629293,12.8355874 30.5629293,26.2984996 30.5629293,52.4994752 C29.5997445,55.5908421 27.670931,58.2243132 24.7764887,60.3998886 C20.4348253,63.6632516 18.257563,63.2364379 15.4034312,63.2570697 C12.5492995,63.2777014 9.41248989,63.1562481 5.68634897,60.3998886 C3.20225502,58.5623156 1.30680537,55.9288445 0,52.4994752 C3.61548989e-13,26.9692765 3.61548989e-13,13.5063643 0,12.1107386 C-5.42217447e-13,10.0172999 1.18953064,6.53401833 4.90206135,3.71307103 C8.61459206,0.89212372 11.7161369,0.027998987 15.4034312,0.000531600273 Z" id="Path-16" fill="url(#linearGradient-1)"></path>
+            <rect id="Rectangle-7" fill="url(#linearGradient-2)" x="0" y="17.7777778" width="30.5230774" height="21.2003208"></rect>
+            <polygon id="Path-17" fill="url(#linearGradient-3)" points="13.0550361 27.3912888 13.0550361 23.7037037 16.5637352 23.7037037 16.5637352 27.3912888 20.0766258 27.3912888 20.0766258 30.5692449 16.5637352 30.5692449 16.5637352 34.1632598 13.0550361 34.1632598 13.0550361 30.5692449 9.53846154 30.5692449 9.53846154 27.3912888"></polygon>
+        </g>
+    </g>
+</svg>

@@ -8,8 +8,9 @@ Veteran Banner
   height:200px;
 }
 .vetimg {
-  background-image: url("../../img/programpng/headerimg/veterans.svg");
+  background-image: url("../../img/programpng/headerimg/veterans.jpg");
   height: 600px;
+  width: 100%;
   z-index: 1;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,18 +91,18 @@ Admissions Button
   color: white;
   background-color: #23527C;
   padding-top: 2px;
-}
-.bodytext2 {
-  text-align: center;
   padding-bottom: 15px;
-  width: 100%;
 }
+.bodytextinfo {
+  height: 15%;
+}
+
 .numbers {
   display: inline-block;
   width:33%;
 }
-/* Body text 3 */
-.textcontainer3 {
+/* Resource Container */
+.resourcecontainer {
   width: 100%;
   background-color: white;
   height: 200px;
@@ -113,7 +114,7 @@ Admissions Button
   height: 400px;
   width: 35%;
 }
-/* Resources */
+/* Resources Logos*/
 #logoicons1 {
   height: 100px;
   width: 150px;
@@ -192,13 +193,8 @@ Admissions Button
   padding: 6px 12px;
   width: 50%;
   border-top: none;
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
-/* Go from zero to full opacity */
-@keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
+
 .infovet {
   width: 525px;
 }

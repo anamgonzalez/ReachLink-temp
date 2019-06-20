@@ -27,14 +27,17 @@
   font-size: 18px;
   color: white;
   padding-bottom: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: center !important;
 }
 .distitle {
-  color: grey;
+  color: white;
+
   text-align: center;
   align-items: center;
   margin: 0 0 0 0;
-  padding-top: 40px;
+  padding-top: 5%;
 }
 .block1 {
   color: white;

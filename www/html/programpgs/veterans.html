@@ -21,7 +21,10 @@
     	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
     });
   </script>
-
+  <script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").onclick();
+  </script>
 </head>
 <header>
     <nav id="navigation" class="navbar navbar-default navbar-fixed-top">
@@ -52,21 +55,30 @@
 </header>
 <body>
 
-<div class="container1">
-  <div class="hero-image">
-  <div class="hero-text">
-    <h1>Veteran Program</h1>
-    <p><em>Serving those who served us.</em></p>
-    <button class="admissionsbutton" onclick="window.location.href = '../admissions.html';"> Get Started </button>
+  <!-- Veterans Banner -->
+<div class="veteranbanner">
+  <div class="vetimg">
+      <div class="vetbox">
+        <h1>Veteran Program</h1>
+          <p class="servetext"><em>Serving those who served us.</em></p>
+        <button class="admissionsbutton" onclick="window.location.href = '../admissions.html';"> APPLY NOW </button>
+      </div>
   </div>
 </div>
+<!-- Need Info-->
+<div class="intro">
+  <div class="centertitle">
+    <h1> Veterans Program is described as Lorem Ipsum </h1>
+  </div>
 </div>
-
-<div class="textcontainer">
+  <!-- PTSD TBI CSR Info-->
+<div class="infoblock">
   <div class="centertitle">
     <h1> Recognize and manage <br>PTSD, TBI, and CSR </h1>
     <h3>Have you ever experienced:</h3>
   </div>
+</div>
+<div class="listcontainer">
   <div class="ptsd1">
     <h3> PTSD</h3>
       <ul> &#10004; Behavioral: agitation, irritability, hostility, hyper-vigilance, self-destructive behavior, or social isolation </ul>
@@ -87,19 +99,19 @@
         <ul> &#10004; Sensory: sensitivity to light or sensitivity to sound </ul>
         <ul> &#10004; Also common: persistent headache, a temporary moment of clarity, bleeding, blurred vision, bone fracture, bruising, depression, loss of smell, nerve injury, or post-traumatic seizure.</ul>
       </div>
-</div>
+  </div>
 </div>
 
 <div class="containertab">
   <!-- Tab links -->
 <div class="tabsection">
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"><img src="../../img/programpng/veteranslogo/SealDoD.png" class="vetlogo"></button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')"><img src="../../img/programpng/veteranslogo/SealArmy.png" class="vetlogo"></button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')"><img src="../../img/programpng/veteranslogo/SealNavy.png" class="vetlogo"></button>
-  <button class="tablinks" onclick="openCity(event, 'Shanghai')"><img src="../../img/programpng/veteranslogo/SealMarines.png" class="vetlogo"></button>
-  <button class="tablinks" onclick="openCity(event, 'Moscow')"><img src="../../img/programpng/veteranslogo/SealAirForce.png" class="vetlogo"></button>
-</div>
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"><img src="../../img/programpng/veteranslogo/SealDoD.png" class="vetlogo"></button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')"><img src="../../img/programpng/veteranslogo/SealArmy.png" class="vetlogo"></button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')"><img src="../../img/programpng/veteranslogo/SealNavy.png" class="vetlogo"></button>
+    <button class="tablinks" onclick="openCity(event, 'Shanghai')"><img src="../../img/programpng/veteranslogo/SealMarines.png" class="vetlogo"></button>
+    <button class="tablinks" onclick="openCity(event, 'Moscow')"><img src="../../img/programpng/veteranslogo/SealAirForce.png" class="vetlogo"></button>
+  </div>
 
 <!-- Tab content -->
 <div id="London" class="tabcontent">
@@ -122,6 +134,8 @@
     <img src="../../img/programpng/veteransinfo/graph2.jpg" class="infovet">
 </div>
 </div>
+
+<!-- Statistics -->
   <div class="numbers">
     <p>Between </p>
     <h1>11- 20% </h1>
@@ -134,11 +148,11 @@
   <p> An Average of </p>
   <h1>21,092</h1>
   <p>Veteran cases per year from 2000-2017 in the U.S. Military of TBI (Traumic Brain Injury) </p>
-</div>
+  </div>
 
 <div class="bodytext2">
   <h1> How does ReachLink help? </h1>
-  <p>Prolonged Exposure and Cognitive Processing Therapy
+  <p class="bodytextinfo">Prolonged Exposure and Cognitive Processing Therapy
     are trauma-focused psychotherapies. These therapeutic
     techniques are the most highly recommended for PTSD.
     ReachLink clinicians use these innovative therapeutic techniques
@@ -150,24 +164,24 @@
 </div>
 
 
-<div class="textcontainer3">
+<div class="resourcecontainer">
   <div>
     <h1 class="resources">Resources</h1>
       <div class="rowicon">
         <div class="columnicons">
-          <img src="../../img/programpng/logoicons/cert1.png" alt="rllogo" id="logoicons1"></img>
-          <img src="../../img/programpng/logoicons/cert2.png" alt="rllogo" id="logoicons2"></img>
-          <img src="../../img/programpng/logoicons/cert3.jpg" alt="rllogo" id="logoicons3"></img>
-          <img src="../../img/programpng/logoicons/cert4.png" alt="rllogo" id="logoicons4"></img>
+          <img src="../../img/programpng/logoicons/cert1.png" alt="rllogo" class="logoicons"id="logoicons1"></img>
+          <img src="../../img/programpng/logoicons/cert2.png" alt="rllogo" class="logoicons" id="logoicons2"></img>
+          <img src="../../img/programpng/logoicons/cert3.jpg" alt="rllogo" class="logoicons" id="logoicons3"></img>
+          <img src="../../img/programpng/logoicons/cert4.png" alt="rllogo" class="logoicons" id="logoicons4"></img>
         </div>
       </div>
       <div class="rowicon">
         <div class="columnicons">
-          <img src="../../img/programpng/logoicons/cert5.png" alt="rllogo" id="logoicons5"></img>
-          <img src="../../img/programpng/logoicons/cert6.svg" alt="rllogo" id="logoicons6"></img>
-          <img src="../../img/programpng/logoicons/cert7.png" alt="rllogo" id="logoicons7"></img>
-          <img src="../../img/programpng/logoicons/cert8.png" alt="rllogo" id="logoicons8"></img>
-          <img src="../../img/programpng/logoicons/cert9.png" alt="rllogo" id="logoicons9"></img>
+          <img src="../../img/programpng/logoicons/cert5.png" alt="rllogo" class="logoicons" id="logoicons5"></img>
+          <img src="../../img/programpng/logoicons/cert6.svg" alt="rllogo" class="logoicons" id="logoicons6"></img>
+          <img src="../../img/programpng/logoicons/cert7.png" alt="rllogo" class="logoicons" id="logoicons7"></img>
+          <img src="../../img/programpng/logoicons/cert8.png" alt="rllogo" class="logoicons" id="logoicons8"></img>
+          <img src="../../img/programpng/logoicons/cert9.png" alt="rllogo" class="logoicons" id="logoicons9"></img>
         </div>
       </div>
     </div>
@@ -187,19 +201,19 @@
         Boca Raton, FL 33431 <br></div>
 
         <div class="column">
-          <a class="footer-link" href="./html/footerlinks/education.html"><p>For Education</p></a>
-          <a class="footer-link" href="./html/footerlinks/payers.html"><p>For Payers</p></a>
-          <a class="footer-link" href="./html/footerlinks/healthsys.html"><p>For Health Systems</p></a>
-          <a class="footer-link" href="./html/footerlinks/corporations.html"><p>For Corporations</p></a>
-          <a class="footer-link" href="./html/footerlinks/courtsys.html"><p>For Court Systems</p></a>
-          <a class="footer-link" href="./html/footerlinks/correcfac.html"><p>For Correctional Facilities</p></a>
+          <a class="footer-link" href="../footerlinks/education.html"><p>For Education</p></a>
+          <a class="footer-link" href="../footerlinks/payers.html"><p>For Payers</p></a>
+          <a class="footer-link" href="../footerlinks/healthsys.html"><p>For Health Systems</p></a>
+          <a class="footer-link" href="../footerlinks/corporations.html"><p>For Corporations</p></a>
+          <a class="footer-link" href="../footerlinks/courtsys.html"><p>For Court Systems</p></a>
+          <a class="footer-link" href="../footerlinks/correcfac.html"><p>For Correctional Facilities</p></a>
         </div>
-        <div class="column"><a class="footer-link" href="./html/footerlinks/careers.html"><p>Careers</p></a>
-        <a class="footer-link" href="./html/footerlinks/team.html"><p>Team</p></a>
-        <a class="footer-link" href="./html/footerlinks/news.html"><p>News</p></a>
-        <a class="footer-link" href="./html/footerlinks/blog.html"><p>Blog</p></a>
-        <a class="footer-link" href="./html/footerlinks/terms.html"><p>Terms and Conditions</p></a>
-        <a class="footer-link" href="./html/footerlinks/privacypolicy.html"><p>Privacy Policy</p></a>
+        <div class="column"><a class="footer-link" href="../footerlinks/careers.html"><p>Careers</p></a>
+        <a class="footer-link" href="../footerlinks/team.html"><p>Team</p></a>
+        <a class="footer-link" href="../footerlinks/news.html"><p>News</p></a>
+        <a class="footer-link" href="../footerlinks/blog.html"><p>Blog</p></a>
+        <a class="footer-link" href="../footerlinks/terms.html"><p>Terms and Conditions</p></a>
+        <a class="footer-link" href="../footerlinks/privacypolicy.html"><p>Privacy Policy</p></a>
       </div>
     </div>
     <div>

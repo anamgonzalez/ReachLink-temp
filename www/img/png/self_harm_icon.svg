@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="63px" viewBox="0 0 39 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>self_harm</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50.8968295%" y1="50%" x2="52.4068906%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFCDE8" offset="0%"></stop>
+            <stop stop-color="#FF9ECB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M19.7187341,0 C29.9664433,19.5793034 35.7856591,31.6998208 37.1763815,36.3615524 C39.2624651,43.3541498 37.5746115,48.8941848 35.5246011,52.9816089 C31.8666549,60.2750245 23.701088,63 19.7187341,63 C15.2895359,63 7.15604781,62.0035805 2.62107543,52.9816089 C0.793475305,49.3457419 -1.09325598,43.1702627 0.763909728,36.3615524 C2.0020202,31.8224123 8.32029498,19.7018948 19.7187341,0 Z" id="Path-11" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

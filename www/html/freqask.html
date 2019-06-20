@@ -7,37 +7,48 @@
 <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="../css/imagehover.min.css">
-<link rel="stylesheet" type="text/css" href="../css/navbar.css">
+<link rel="stylesheet" type="text/css" href="../css/footer.css">
+<link rel="stylesheet" type="text/css" href="../css/home.css">
+<link rel="stylesheet" type="text/css" href="../css/fontstylesheet.css">
+
 <link rel="stylesheet" type="text/css" href="../css/freqask.css">
 
+<head>
+  <script src="../js/jquery-2.1.1.js"></script>
+  <script src="../js/tabs.js"></script>
+  <script>
+    $(window).scroll(function(){
+    	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+    });
+  </script>
+
+</head>
 <header>
-  <div>
-    <nav class="sticky">
+    <nav id="navigation" class="navbar navbar-default navbar-fixed-top">
       <div class="navbar">
-          <ul class="nav">
-              <a href="https://www.reachlink.com"><img src="../img/reachlinklogo.png" class="rllogo"></a>
-            <li class="nav-item">
-              <a class="nav-link" href="admissions.html">Admissions</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="disorders.html">Disorders</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="programs.html">Programs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="freqask.html">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-          </ul>
+              <ul class="nav">
+                  <a href="https://www.reachlink.com"><img src="../img/reachlinklogo.png" class="rllogo"></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="freqask.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="programs.html">Programs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="disorders.html">Disorders</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="admissions.html">Admissions</a>
+                </li>
+              </ul>
         <div>
             <a href="tel:8337322489" class="rlnumber"> (833) - 732 - 2489</a>
-          </div>
+        </div>
       </div>
     </nav>
-  </div>
 </header>
     <br>
     <br>

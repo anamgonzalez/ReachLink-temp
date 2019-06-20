@@ -1,26 +1,22 @@
-.container1 {
+/***********************************
+Veteran Banner
+************************************/
+.veteranbanner {
   position: relative;
   width: 100%;
   z-index: 11;
   height:200px;
 }
-/* The hero image */
-.hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+.vetimg {
   background-image: url("../../img/programpng/headerimg/veterans.svg");
-
-  /* Set a specific height */
   height: 600px;
   z-index: 1;
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-
-/* Place text in the middle of the image */
-.hero-text {
+.vettext {
   text-align: left;
   position: absolute;
   top: 55%;
@@ -32,10 +28,12 @@
   padding-bottom: 15px;
   z-index: 2;
 }
-.hero-text h1 {
+.vettext h1 {
   font-size: 60px;
 }
-
+/***********************************
+Admissions Button
+************************************/
 .admissionsbutton {
   background-color: red;
   border-radius:4px;
@@ -47,8 +45,9 @@
   width: 100%;
   height: 200px;
 }
-
-/* Body Text One */
+/***********************************
+Admissions Button
+************************************/
 .bodytext1 {
   display: inline-block;
   text-align: center;
@@ -140,19 +139,19 @@
   width: 150px;
 }
 #logoicons7 {
-  height: 100px;
-  width: 70px;
+  height: 150px;
+  width: 120px;
 }
 #logoicons8 {
-  height: 100px;
-  width: 150px;
+  height: 150px;
+  width: 200px;
 }
 #logoicons9 {
   height: 80px;
-  width: 200px;
+  width: 250px;
 }
-.columnicons {
-  padding: 3%;
+.logoicons {
+  padding: 15px;
 }
 .resources {
   text-align: center;

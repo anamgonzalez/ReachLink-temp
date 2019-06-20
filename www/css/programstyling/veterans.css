@@ -8,7 +8,7 @@ Veteran Banner
   height:200px;
 }
 .vetimg {
-  background-image: url("../../img/programpng/headerimg/veterans.jpg");
+  background-image: url("../../img/programpng/headerimg/veterans.svg");
   height: 600px;
   width: 100%;
   z-index: 1;

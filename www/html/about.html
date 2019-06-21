@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,96 +12,103 @@
   <link rel="stylesheet" type="text/css" href="../css/fontstylesheet.css">
   <link rel="stylesheet" type="text/css" href="../css/about.css">
 
-</head>
-  <!--Navigation bar-->
   <header>
-    <div>
-      <nav class="sticky">
-        <div class="navbar">
-            <ul class="nav">
-                <a href="https://www.reachlink.com"><img src="../img/reachlinklogo.png" class="rllogo"></a>
-              <li class="nav-item">
-                <a class="nav-link" href="admissions.html">Admissions</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="disorders.html">Disorders</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="programs.html">Programs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="freqask.html">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-            </ul>
-          <div>
-              <a href="tel:8337322489" class="rlnumber"> (833) - 732 - 2489</a>
-            </div>
-        </div>
-      </nav>
-    </div>
+    <!-- Nav Bar -->
+    <div id="main-nav"></div>
   </header>
-  <br>
-  <br>
-  <br>
-  <br>
-  <body>
-      <body>
-       <!--Mission Statement-->
-     <h1 class="missiontitle">
-        Mission
-     </h1>
-     <hr class="missionline">
-     <h3 class="missiondesc">
-       ReachLink uses technology to improve lives. <br>We provide effective, affordable behavioral health care and aspire to enable access to care for all people.
-     </h3>
+
+<body>
+  <!--Mission Statement-->
+  <h1 class="missiontitle">
+    Mission
+  </h1>
+  <hr class="missionline">
+  <h3 class="missiondesc">
+    ReachLink uses technology to improve lives. <br>We provide effective, affordable behavioral health care and aspire to enable access to care for all people.
+  </h3>
   <div class="map">
     <iframe src="https://createaclickablemap.com/map.php?&id=81545&maplocation=false&online=true" width="900" height="525" style="border: none;"></iframe>
-    <script>if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } </script>
+    <script>
+      if (window.addEventListener) {
+        window.addEventListener("message", function(event) {
+          if (event.data.length >= 22) {
+            if (event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22);
+          }
+        }, false);
+      } else if (window.attachEvent) {
+        window.attachEvent("message", function(event) {
+          if (event.data.length >= 22) {
+            if (event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22);
+          }
+        }, false);
+      }
+    </script>
   </div>
-  </body>
-  <!--Footer-->
-  <footer id="footer" class="footer">
-      <div class="endlinks">
-        <a href="https://www.reachlink.com/"><img src="../img/reachlinklogo.png" alt="rllogo" id="reachlinklogo"></img> X
-        <a href="https://www.research-park.org/" target="_blank" ><img src="../img/faulogo.png" alt="faulogo" id="faulogo"></img></a>
-        <div class="hellocred"><br>
+</body>
+<!--Footer-->
+<footer id="footer" class="footer">
+  <div class="endlinks">
+    <a href="https://www.reachlink.com/"><img src="../img/reachlinklogo.png" alt="rllogo" id="reachlinklogo"></img> X
+      <a href="https://www.research-park.org/" target="_blank"><img src="../img/faulogo.png" alt="faulogo" id="faulogo"></img></a>
+      <div class="hellocred"><br>
         hello@reachlink.com <br>
         ReachLink <br>
         (833) - 732 - 2489<br>
         3651 FAU Boulevard, Suite 400 <br>
         Boca Raton, FL 33431 <br></div>
 
-        <div class="column">
-          <a class="footer-link" href="footerlinks/education.html"><p>For Education</p></a>
-          <a class="footer-link" href="footerlinks/payers.html"><p>For Payers</p></a>
-          <a class="footer-link" href="footerlinks/healthsys.html"><p>For Health Systems</p></a>
-          <a class="footer-link" href="footerlinks/corporations.html"><p>For Corporations</p></a>
-          <a class="footer-link" href="footerlinks/courtsys.html"><p>For Court Systems</p></a>
-          <a class="footer-link" href="footerlinks/correcfac.html"><p>For Correctional Facilities</p></a>
-        </div>
-        <div class="column"><a class="footer-link" href="footerlinks/careers.html"><p>Careers</p></a>
-        <a class="footer-link" href="footerlinks/team.html"><p>Team</p></a>
-        <a class="footer-link" href="footerlinks/news.html"><p>News</p></a>
-        <a class="footer-link" href="footerlinks/blog.html"><p>Blog</p></a>
-        <a class="footer-link" href="footerlinks/terms.html"><p>Terms and Conditions</p></a>
-        <a class="footer-link" href="footerlinks/privacypolicy.html"><p>Privacy Policy</p></a>
+      <div class="column">
+        <a class="footer-link" href="footerlinks/education.html">
+          <p>For Education</p>
+        </a>
+        <a class="footer-link" href="footerlinks/payers.html">
+          <p>For Payers</p>
+        </a>
+        <a class="footer-link" href="footerlinks/healthsys.html">
+          <p>For Health Systems</p>
+        </a>
+        <a class="footer-link" href="footerlinks/corporations.html">
+          <p>For Corporations</p>
+        </a>
+        <a class="footer-link" href="footerlinks/courtsys.html">
+          <p>For Court Systems</p>
+        </a>
+        <a class="footer-link" href="footerlinks/correcfac.html">
+          <p>For Correctional Facilities</p>
+        </a>
       </div>
-    </div>
-    <div>
-      <ul class="social-links">
-        <li><a href="https://twitter.com/reachlink" target="_blank" ><i class="fa fa-twitter fa-fw"></i></a></li>
-        <li><a href="https://www.facebook.com/reachlinkusa" target="_blank" ><i class="fa fa-facebook fa-fw"></i></a></li>
-        <li><a href="https://www.youtube.com/channel/UCPMbWCdCsK9Mq8eAKBniQtw" target="_blank" ><i class="fa fa-youtube fa-fw"></i></a></li>
-        <li><a href="https://www.instagram.com/reachlinkusa/" target="_blank" ><i class="fa fa-instagram fa-fw"></i></a></li>
-        <li><a href="https://www.linkedin.com/company/reachlink" target="_blank" ><i class="fa fa-linkedin fa-fw"></i></a></li>
-      </ul>
-    </div>
-      <div class="credits">
-        ©2019 ReachLink All Rights Reserved<br>
+      <div class="column"><a class="footer-link" href="footerlinks/careers.html">
+          <p>Careers</p>
+        </a>
+        <a class="footer-link" href="footerlinks/team.html">
+          <p>Team</p>
+        </a>
+        <a class="footer-link" href="footerlinks/news.html">
+          <p>News</p>
+        </a>
+        <a class="footer-link" href="footerlinks/blog.html">
+          <p>Blog</p>
+        </a>
+        <a class="footer-link" href="footerlinks/terms.html">
+          <p>Terms and Conditions</p>
+        </a>
+        <a class="footer-link" href="footerlinks/privacypolicy.html">
+          <p>Privacy Policy</p>
+        </a>
       </div>
-    </div>
-  </footer>
-  <!-- Footer-->
+  </div>
+  <div>
+    <ul class="social-links">
+      <li><a href="https://twitter.com/reachlink" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
+      <li><a href="https://www.facebook.com/reachlinkusa" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCPMbWCdCsK9Mq8eAKBniQtw" target="_blank"><i class="fa fa-youtube fa-fw"></i></a></li>
+      <li><a href="https://www.instagram.com/reachlinkusa/" target="_blank"><i class="fa fa-instagram fa-fw"></i></a></li>
+      <li><a href="https://www.linkedin.com/company/reachlink" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+    </ul>
+  </div>
+  <div class="credits">
+    ©2019 ReachLink All Rights Reserved<br>
+  </div>
+  </div>
+</footer>
+<!-- Footer-->

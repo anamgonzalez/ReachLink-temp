@@ -19,4 +19,4 @@ $(document).ready(function() {
 
 
 //test html load
-$('#main-nav').load('/www/html/navbar.html');
+$('#main-nav').load('https://reachlink.com/www/html/navbar.html');

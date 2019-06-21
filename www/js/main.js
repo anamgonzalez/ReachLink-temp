@@ -16,7 +16,18 @@ $(document).ready(function() {
 
 });
 
+//Here lets give our sidebar some functioality
+var sideBar = $('.sidebar');
+var sideToggle = $('.lines');
+var main = $('main');
 
+sideToggle.on('click', function() {
+  sideBar.css("left", 0);
+  console.log('click');
+});
 
-//test html load
-$('#main-nav').load('/www/html/navbar.html');
+main.on('click', function() {
+  sideBar.css("left", -270);
+});
+
+console.log('hello');

@@ -15,3 +15,18 @@ $(document).ready(function() {
 	});
 
 });
+
+console.log('hello');
+
+//Here lets give our sidebar some functioality
+var sideBar = $('.sidebar');
+var sideToggle = $('.lines');
+var main = $('main');
+
+sideToggle.on('click', function() {
+  sideBar.css("left", 0);
+});
+
+main.on('click', function() {
+  sideBar.css("left", -270);
+});

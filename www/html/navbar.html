@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="../www/css/navbar.css">
+</head>
 <div class="main-nav">
   <div class="logo">
     <img src="/www/img/reachlinklogo.png" alt="ReachLink Logo.">
@@ -34,3 +37,21 @@
     </div>
   </nav>
 </div>
+
+<script type="text/javascript">
+//Here lets give our sidebar some functioality
+var sideBar = $('.sidebar');
+var sideToggle = $('.lines');
+var main = $('main');
+
+sideToggle.on('click', function() {
+  sideBar.css("left", 0);
+  console.log('click');
+});
+
+main.on('click', function() {
+  sideBar.css("left", -270);
+});
+
+console.log('hello');
+</script>

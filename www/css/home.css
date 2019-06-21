@@ -69,7 +69,7 @@ Navigation bar
   font-size: 2em;
   text-align: left;
   background: #337ab7;
-  z-index: 10;
+  z-index: 100;
   transition: all ease-out .3s;
 
 }
@@ -83,9 +83,6 @@ Navigation bar
   margin: 0px;
 }
 
-.sidebar ul li:hover {
-  background: #1b3d5a;
-}
 
 .sidebar a {
   color: #fff;
@@ -96,7 +93,7 @@ Navigation bar
   position: relative;
 }
 
-.sidebar a::before {
+/* .sidebar a::before {
   content: "";
   position: absolute;
   top: 0;
@@ -107,7 +104,7 @@ Navigation bar
   transform: scaleY(0);
   transition: transform .5s,
     width: .4s .2s;
-}
+} */
 
 .sidebar a:hover::before {
   transform: scaleY(1);
